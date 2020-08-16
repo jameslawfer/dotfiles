@@ -1,0 +1,9 @@
+[Desktop Entry]
+Comment=electron Startup Script
+Exec="/usr/lib/electron/electron"
+Hidden=true
+Name=electron
+StartupNotify=false
+Terminal=false
+Type=Application
+Version=1.0

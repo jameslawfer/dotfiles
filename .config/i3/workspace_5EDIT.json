@@ -1,0 +1,108 @@
+{
+    "border": "none",
+    "current_border_width": 0,
+    "floating": "user_off",
+    "geometry": {
+       "height": 1772,
+       "width": 3200,
+       "x": 0,
+       "y": 28
+    },
+    "name": "Slack | team-manufacturing | Propeller | 13 new items",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Slack$",
+        "instance": "^slack$",
+        "title": "^Slack\\ \\|\\ team\\-manufacturing\\ \\|\\ Propeller\\ \\|\\ 13\\ new\\ items$",
+        "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 1440,
+               "width": 1561,
+               "x": 1337,
+               "y": 0
+            },
+            "name": "SR 2020 - ?? – TIDAL",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^Google\\-chrome$",
+                "instance": "^crx_emefpkhgihlhfddcjfghpndaeliajgjj$",
+                "title": "^SR\\ 2020\\ \\-\\ \\?\\?\\ \\–\\ TIDAL$",
+                "window_role": "^pop\\-up$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splith",
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 847,
+                       "width": 1561,
+                       "x": 1613,
+                       "y": 927
+                    },
+                    "name": "Messenger",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^Caprine$",
+                        "instance": "^caprine$",
+                        "title": "^Messenger$",
+                        "window_role": "^browser\\-window$"
+                       }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 0,
+                    "floating": "auto_off",
+                    "geometry": {
+                       "height": 1772,
+                       "width": 3200,
+                       "x": 0,
+                       "y": 1468
+                    },
+                    "name": "(15) WhatsApp",
+                    "percent": 0.5,
+                    "swallows": [
+                       {
+                        "class": "^whatsapp\\-nativefier\\-d40211$",
+                        "instance": "^whatsapp\\-nativefier\\-d40211$",
+                        "title": "^\\(15\\)\\ WhatsApp$",
+                        "window_role": "^browser\\-window$"
+                       }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
+
