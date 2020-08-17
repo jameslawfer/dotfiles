@@ -1,0 +1,26 @@
+[Appearance]
+Skin=materia-dark
+SkinInstalledWithKns=true
+Translucency=true
+
+[Behavior]
+FocusFollowsMouse=true
+
+[Desktop Entry]
+DefaultProfile=Yakuake.profile
+
+[Dialogs]
+FirstRun=false
+
+[DownloadDialog Settings]
+Height 1800=544
+Width 3200=700
+
+[Favorite Profiles]
+Favorites=Yakuake.profile
+
+[KFileDialog Settings]
+detailViewIconSize=0
+
+[Window]
+Height=38

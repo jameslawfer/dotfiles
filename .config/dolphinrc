@@ -1,0 +1,69 @@
+Height 1800=997
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAADvfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAoAAADvQAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAFngAAA70AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 3200=1623
+
+[CompactMode]
+FontWeight=50
+
+[Desktop Entry]
+DefaultProfile=
+
+[DetailsMode]
+FontWeight=50
+PreviewSize=22
+
+[DownloadDialog Settings]
+Height 1800=544
+Width 3200=700
+
+[Favorite Profiles]
+Favorites=
+
+[General]
+GlobalViewProps=false
+Version=200
+ViewPropsTimestamp=2019,12,5,23,41,23
+
+[IconsMode]
+FontWeight=50
+PreviewSize=176
+
+[KFileDialog Settings]
+detailViewIconSize=0
+
+[KPropertiesDialog]
+Height 1800=630
+Width 3200=545
+
+[MainWindow]
+Height 1080=530
+Height 1440=750
+Height 1800=750
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADUAAACSvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAoAAAAfgAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAoAAACSgAAAF0BAAADAAAAAQAAAXwAAAL+/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACgAAAL+AAAACgEAAAMAAAADAAAEzgAAAHv8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAEzgAAAJEBAAADAAAD+QAAAkoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=940
+Width 2560=1230
+Width 3200=1230
+
+[Open-with settings]
+CompletionMode=1
+History=calligra,okul,vlc,vim
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
+
+[Search]
+Location=Everywhere
+
+[SettingsDialog]
+Height 1800=535
+Width 3200=708
+
+[VersionControl]
+enabledPlugins=Dropbox,Git
+
+[ViewPropertiesDialog]
+Height 1800=628
+Width 3200=464
