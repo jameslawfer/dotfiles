@@ -22,5 +22,9 @@ Favorites=Yakuake.profile
 [KFileDialog Settings]
 detailViewIconSize=0
 
+[Shortcuts]
+close-session=Ctrl+W
+new-session=Ctrl+T
+
 [Window]
 Height=38

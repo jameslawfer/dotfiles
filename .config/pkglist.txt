@@ -55,6 +55,7 @@ kgamma5
 khotkeys
 kicad
 kinfocenter
+kitty
 kmenuedit
 knetattach
 kscreen

@@ -1,6 +1,6 @@
 Height 1800=1772
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAADIAAAAbCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHcf////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAADIAAAAbCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAGkv////8AAAAAAAAAAA==
 Width 3200=3200
 
 [Desktop Entry]
@@ -16,34 +16,34 @@ detailViewIconSize=0
 
 [MainWindow]
 Height 1440=1412
-Height 1800=1772
+Height 1800=1720
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAADIAAAAbCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHcf////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABAQAAAaOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 2560=2560
-Width 3200=3200
+Width 3200=1028
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_004 AP2 Enclosure PRD/PRD-AP2-000_AP2_0_Enclosure_Adhesive_Specification_r1_30.pdf
-File10[$e]=$HOME/Downloads/Purchase Order # PO1398.pdf
-File2[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/02 Component Specifications and Datasheets/70 DM Solar Panels/BetterBarWare/Invoices/200505_PI For Aldi 3W 12V ETFE Solar Panel  20200505.pdf
-File3[$e]=$HOME/Dropbox/Identification Documents/003_Medicare-FS.jpg
-File4[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200722_AP2_0_ENCLOSURE_rc2/200722_AP2_0_SCREENPRINT_v1_0.pdf
-File5[$e]=$HOME/Dropbox/!!UNORGANISED/Uni/James/COMP3331/Assignment/COMP3331_Assignment.pdf
-File6[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200804_AP2_0_ENCLOSURE_rc3/AP2.0_Marks_v1.1_30_07_20.pdf
-File7[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_000 AP1.0 QA Challenge/Deliverables/AeroPoints_QA_Process_r0_1.pdf
-File8[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_000 AP1.0 QA Challenge/Deliverables/Report Submission/200302_AeroPoints_QA_Process.pdf
-File9[$e]=$HOME/Downloads/3.jpg
-Name1[$e]=PRD-AP2-000_AP2_0_Enclosure_Adhesive_Specification_r1_30.pdf
-Name10[$e]=Purchase Order # PO1398.pdf
-Name2[$e]=200505_PI For Aldi 3W 12V ETFE Solar Panel  20200505.pdf
-Name3[$e]=003_Medicare-FS.jpg
-Name4[$e]=200722_AP2_0_SCREENPRINT_v1_0.pdf
-Name5[$e]=COMP3331_Assignment.pdf
-Name6[$e]=AP2.0_Marks_v1.1_30_07_20.pdf
-Name7[$e]=AeroPoints_QA_Process_r0_1.pdf
-Name8[$e]=200302_AeroPoints_QA_Process.pdf
-Name9[$e]=3.jpg
+File1[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200722_AP2_0_ENCLOSURE_rc2/200722_AP2_0_SCREENPRINT_v1_0.pdf
+File10[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/PDP-CAL-000_CTS-IOT-Enclosure-Development-Proposal_V1_00.pdf
+File2[$e]=$HOME/Dropbox/!!UNORGANISED/Uni/James/COMP3331/Assignment/COMP3331_Assignment.pdf
+File3[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200804_AP2_0_ENCLOSURE_rc3/AP2.0_Marks_v1.1_30_07_20.pdf
+File4[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_000 AP1.0 QA Challenge/Deliverables/AeroPoints_QA_Process_r0_1.pdf
+File5[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_000 AP1.0 QA Challenge/Deliverables/Report Submission/200302_AeroPoints_QA_Process.pdf
+File6[$e]=$HOME/Downloads/3.jpg
+File7[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/09 AeroStencil 2/200818_AeroStencil2 print Aug20 v4.pdf
+File8[$e]=$HOME/Dropbox/Jobs/Resume/2020/200128 JLF Calumino LOR.pdf
+File9[$e]=$HOME/Dropbox/Jobs/Resume/2020/CV_Lawira-Fernandez_James_Generic_200217.pdf
+Name1[$e]=200722_AP2_0_SCREENPRINT_v1_0.pdf
+Name10[$e]=PDP-CAL-000_CTS-IOT-Enclosure-Development-Proposal_V1_00.pdf
+Name2[$e]=COMP3331_Assignment.pdf
+Name3[$e]=AP2.0_Marks_v1.1_30_07_20.pdf
+Name4[$e]=AeroPoints_QA_Process_r0_1.pdf
+Name5[$e]=200302_AeroPoints_QA_Process.pdf
+Name6[$e]=3.jpg
+Name7[$e]=200818_AeroStencil2 print Aug20 v4.pdf
+Name8[$e]=200128 JLF Calumino LOR.pdf
+Name9[$e]=CV_Lawira-Fernandez_James_Generic_200217.pdf
 
 [SlideShow]
 PresentationMonitor=0
