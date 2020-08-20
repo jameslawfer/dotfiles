@@ -24,26 +24,26 @@ Width 2560=2560
 Width 3200=1561
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/09 AeroStencil 2/200818_AeroStencil2 print Aug20 v4.pdf
-File10[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200804_AP2_0_ENCLOSURE_rc3/AP2.0_Marks_v1.1_30_07_20.pdf
-File2[$e]=$HOME/Dropbox/Jobs/Resume/2020/200128 JLF Calumino LOR.pdf
-File3[$e]=$HOME/Dropbox/Jobs/Resume/2020/CV_Lawira-Fernandez_James_Generic_200217.pdf
-File4[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/09 AeroStencil 2/200818a_AeroStencil2 print Aug20 PRINT READY FA.pdf
-File5[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/PDP-CAL-000_CTS-IOT-Enclosure-Development-Proposal_V1_00.pdf
-File6[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2.0_CHAMFER_DETAIL_r1.PDF
-File7[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2_0-004 (Body 4).pdf
-File8[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2_0-001 (Body 1).pdf
-File9[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2.0_Marks_v1.2_07_08_20.pdf
-Name1[$e]=200818_AeroStencil2 print Aug20 v4.pdf
-Name10[$e]=AP2.0_Marks_v1.1_30_07_20.pdf
-Name2[$e]=200128 JLF Calumino LOR.pdf
-Name3[$e]=CV_Lawira-Fernandez_James_Generic_200217.pdf
-Name4[$e]=200818a_AeroStencil2 print Aug20 PRINT READY FA.pdf
-Name5[$e]=PDP-CAL-000_CTS-IOT-Enclosure-Development-Proposal_V1_00.pdf
-Name6[$e]=AP2.0_CHAMFER_DETAIL_r1.PDF
-Name7[$e]=AP2_0-004 (Body 4).pdf
-Name8[$e]=AP2_0-001 (Body 1).pdf
-Name9[$e]=AP2.0_Marks_v1.2_07_08_20.pdf
+File1[$e]=$HOME/Dropbox/Jobs/Resume/2020/200128 JLF Calumino LOR.pdf
+File10[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200820_AP2_0_ENCLOSURE_rc5/DEPRECATED_AP2.0_Marks_v1.2_07_08_20.pdf
+File2[$e]=$HOME/Dropbox/Jobs/Resume/2020/CV_Lawira-Fernandez_James_Generic_200217.pdf
+File3[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/09 AeroStencil 2/200818a_AeroStencil2 print Aug20 PRINT READY FA.pdf
+File4[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/PDP-CAL-000_CTS-IOT-Enclosure-Development-Proposal_V1_00.pdf
+File5[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2.0_CHAMFER_DETAIL_r1.PDF
+File6[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2_0-004 (Body 4).pdf
+File7[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2_0-001 (Body 1).pdf
+File8[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200807_AP2_0_ENCLOSURE_rc4/AP2.0_Marks_v1.2_07_08_20.pdf
+File9[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200804_AP2_0_ENCLOSURE_rc3/AP2.0_Marks_v1.1_30_07_20.pdf
+Name1[$e]=200128 JLF Calumino LOR.pdf
+Name10[$e]=DEPRECATED_AP2.0_Marks_v1.2_07_08_20.pdf
+Name2[$e]=CV_Lawira-Fernandez_James_Generic_200217.pdf
+Name3[$e]=200818a_AeroStencil2 print Aug20 PRINT READY FA.pdf
+Name4[$e]=PDP-CAL-000_CTS-IOT-Enclosure-Development-Proposal_V1_00.pdf
+Name5[$e]=AP2.0_CHAMFER_DETAIL_r1.PDF
+Name6[$e]=AP2_0-004 (Body 4).pdf
+Name7[$e]=AP2_0-001 (Body 1).pdf
+Name8[$e]=AP2.0_Marks_v1.2_07_08_20.pdf
+Name9[$e]=AP2.0_Marks_v1.1_30_07_20.pdf
 
 [SlideShow]
 PresentationMonitor=0
