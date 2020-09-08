@@ -109,6 +109,7 @@ polkit-kde-agent
 polybar
 polychromatic
 powerdevil
+powertop
 python-libevdev
 python-notify2
 qbittorrent
