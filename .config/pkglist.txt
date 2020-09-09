@@ -36,6 +36,7 @@ fish
 flex
 gcc
 git
+gnuchess
 google-chrome
 gptfdisk
 groff
@@ -58,6 +59,7 @@ kinfocenter
 kitty
 kmenuedit
 knetattach
+knights
 kscreen
 kscreenlocker
 ksshaskpass

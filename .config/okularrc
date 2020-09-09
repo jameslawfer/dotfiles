@@ -18,10 +18,10 @@ detailViewIconSize=0
 Height 1440=1412
 Height 1800=1720
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABhkAAAaOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABBEAAAaOAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 2560=2560
-Width 3200=1561
+Width 3200=1041
 
 [Recent Files]
 File1[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/Images/Concept_Renders/Concept_3.69.png
@@ -30,16 +30,16 @@ File3[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_C
 File4[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/01 PCBA/DM v1.8/SCH/Aeropoint.pdf
 File5[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/02 Component Specifications and Datasheets/03 Silicone Wire/200415_DDig_Substitution_UL3239.pdf
 File6[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/01 PCBA/APV2_Breakout_v1.6c/DRW/AP2_Breakout_V1.6_Wire_U10X_r0.PDF
-File7[$e]=$HOME/Downloads/AP2 Label FINAL - x8 v3 FINAL.pdf
-File8[$e]=$HOME/Downloads/AP2 Compliance Label v3.pdf
+File7[$e]=$HOME/Dropbox/Propeller/ap2.1a_membrane_switch/fab/ap2.1a_membrane_switch_art.pdf
+File8[$e]=$HOME/Dropbox/Propeller/ap2.1a_membrane_switch/fab/ap2.1a_membrane_switch.pdf
 Name1[$e]=Concept_3.69.png
 Name2[$e]=Concept_3.70.png
 Name3[$e]=untitled.65.png
 Name4[$e]=Aeropoint.pdf
 Name5[$e]=200415_DDig_Substitution_UL3239.pdf
 Name6[$e]=AP2_Breakout_V1.6_Wire_U10X_r0.PDF
-Name7[$e]=AP2 Label FINAL - x8 v3 FINAL.pdf
-Name8[$e]=AP2 Compliance Label v3.pdf
+Name7[$e]=ap2.1a_membrane_switch_art.pdf
+Name8[$e]=ap2.1a_membrane_switch.pdf
 
 [SlideShow]
 PresentationMonitor=0

@@ -1,5 +1,5 @@
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Profile 1.profile
 
 [Favorite Profiles]
 Favorites=Yakuake.profile
@@ -9,7 +9,7 @@ ShowMenuBarByDefault=false
 
 [MainWindow]
 Height 1440=1412
-Height 1800=1720
+Height 1800=1722
 Height 2160=2132
 Height 900=886
 MenuBar=Disabled
