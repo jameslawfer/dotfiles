@@ -9,7 +9,7 @@ ShowMenuBarByDefault=false
 
 [MainWindow]
 Height 1440=1412
-Height 1800=1722
+Height 1800=848
 Height 2160=2132
 Height 900=886
 MenuBar=Disabled
@@ -17,5 +17,5 @@ State=AAAA/wAAAAD9AAAAAAAABhkAAAa4AAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 1600=1600
 Width 2560=2560
-Width 3200=1561
+Width 3200=1881
 Width 3840=3840
