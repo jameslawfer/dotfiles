@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Windows 10
+StartupWMClass=Win10
+Comment=Windows 10 Virtual Machine
+GenericName=Windows 10 QEMU/KVM Virtual Machine
+Exec= /home/james/VMs/start.sh %U
+Icon=
+Type=Application
+StartupNotify=
+Categories=
+MimeType=
