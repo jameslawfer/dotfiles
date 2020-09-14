@@ -317,6 +317,8 @@ mode "$mode_gaps_outer" {
 
 ############### CLASS WINDOW RULES
 for_window [class="vlc"] floating enable
+for_window [class="feh"] floating enable
+# feh -.Zd --start-at %f
 
 # Start polybar
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh

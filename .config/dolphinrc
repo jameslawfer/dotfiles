@@ -7,7 +7,7 @@ Width 3200=1623
 FontWeight=50
 
 [Desktop Entry]
-DefaultProfile=
+DefaultProfile=Profile 1.profile
 
 [DetailsMode]
 FontWeight=50
@@ -49,7 +49,7 @@ Width 3200=1230
 
 [Open-with settings]
 CompletionMode=1
-History=calligra,okul,vlc,vim
+History=feh -.Zd --start-at %f,feh -.Zd --start-at %f --reload 0.05,feh -.Zd -S name,feh -.Zd -S name .,feh --scale-down --auto-zoom -d,feh --scale-down --auto-zoom,feh,calligra,okul,vlc,vim
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
