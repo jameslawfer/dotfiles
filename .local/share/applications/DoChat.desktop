@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=WeChat
+StartupWMClass=WeChat
+Comment=WeChat Desktop
+GenericName=WeChat Client for Linux
+Exec=/home/james/Source/docker-wechat/dochat.sh %U
+Icon=
+Type=Application
+StartupNotify=true
+Categories=InstantMessaging;
