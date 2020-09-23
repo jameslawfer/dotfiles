@@ -21,6 +21,7 @@ dkms
 dmenu
 dmidecode
 dnsmasq
+docker
 dolphin
 dolphin-plugins
 drkonqi
@@ -71,6 +72,7 @@ kwrited
 libinput-gestures
 libkscreen
 libksysguard
+libmicrodns
 libtool
 linux
 linux-firmware
@@ -87,6 +89,7 @@ nano
 nerd-fonts-complete
 nmap
 nordvpn-bin
+nss-mdns
 okular
 openrazer-meta
 openssh

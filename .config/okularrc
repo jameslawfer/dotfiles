@@ -1,7 +1,11 @@
 Height 1800=1772
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAADIAAAAbCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAGkv////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAADIAAAAbEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
 Width 3200=3200
+eDP-1 Height 1800=1774
+eDP-1 Width 3200=3200
+eDP-1 XPosition=0
+eDP-1 YPosition=26
 
 [Desktop Entry]
 FullScreen=false
@@ -16,34 +20,38 @@ detailViewIconSize=0
 
 [MainWindow]
 Height 1440=1412
-Height 1800=1722
+Height 1800=848
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABAQAAAaQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 2560=2560
-Width 3200=1028
+Width 3200=1881
+eDP-1 Height 1800=1722
+eDP-1 Width 3200=1028
+eDP-1 XPosition=2146
+eDP-1 YPosition=52
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/Images/Concept_Renders/Concept_3.70.png
-File10[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/71 AP Packaging/200911_wetransfer-6c4f47/IMG_20200911_164126.jpg
-File2[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/Images/Concept_Renders/untitled.65.png
-File3[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/01 PCBA/DM v1.8/SCH/Aeropoint.pdf
-File4[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/02 Component Specifications and Datasheets/03 Silicone Wire/200415_DDig_Substitution_UL3239.pdf
-File5[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/03 Design and Manufacturing Files/01 PCBA/APV2_Breakout_v1.6c/DRW/AP2_Breakout_V1.6_Wire_U10X_r0.PDF
-File6[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200825_AP2_0_Packaging_r0/ART/200825_AeropointsBoxes.pdf
-File7[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200910_AP2.1a_Membrane_Switch_PPN10106_r2/ap2.1a_membrane_switch.pdf
-File8[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200910_AP2.1a_Membrane_Switch_PPN10106_r2/ap2.1a_membrane_switch_art.pdf
-File9[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200903_APV2_Breakout_v2.1a/APV2_Breakout_v2.1a/DRW/AP2_Breakout_V2.1a_Wire_W2_W3_r0.PDF
-Name1[$e]=Concept_3.70.png
-Name10[$e]=IMG_20200911_164126.jpg
-Name2[$e]=untitled.65.png
-Name3[$e]=Aeropoint.pdf
-Name4[$e]=200415_DDig_Substitution_UL3239.pdf
-Name5[$e]=AP2_Breakout_V1.6_Wire_U10X_r0.PDF
-Name6[$e]=200825_AeropointsBoxes.pdf
-Name7[$e]=ap2.1a_membrane_switch.pdf
-Name8[$e]=ap2.1a_membrane_switch_art.pdf
-Name9[$e]=AP2_Breakout_V2.1a_Wire_W2_W3_r0.PDF
+File1[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200921_CTS_Holders_CAD/Deliverables/Dual_Holder-CTS_V1.6_r0.pdf
+File10[$e]=$HOME/Dropbox/Propeller/22 Shipping Documents/200922_Whale_Logistics_Lead_Well/200923_LOA_Signed.pdf
+File2[$e]=$HOME/Downloads/payment-265 0222 771.pdf
+File3[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/Logs/200906_Notes.txt
+File4[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/Logs/200916_Notes.txt
+File5[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/200806_CTS_IOT_CAD/Logs/200918_Notes.txt
+File6[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/Invoices/Invoice_30_Contract_Work.pdf
+File7[$e]=$HOME/Downloads/EVA FOAM DATA SHEET 70A-0918.pdf
+File8[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_004 AP2 Enclosure PRD/PRD-AP2-000_AP2_0_Enclosure_Adhesive_Specification_r1_30.pdf
+File9[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/Invoices/Invoice_29_Contract_Work.pdf
+Name1[$e]=Dual_Holder-CTS_V1.6_r0.pdf
+Name10[$e]=200923_LOA_Signed.pdf
+Name2[$e]=payment-265 0222 771.pdf
+Name3[$e]=200906_Notes.txt
+Name4[$e]=200916_Notes.txt
+Name5[$e]=200918_Notes.txt
+Name6[$e]=Invoice_30_Contract_Work.pdf
+Name7[$e]=EVA FOAM DATA SHEET 70A-0918.pdf
+Name8[$e]=PRD-AP2-000_AP2_0_Enclosure_Adhesive_Specification_r1_30.pdf
+Name9[$e]=Invoice_29_Contract_Work.pdf
 
 [SlideShow]
 PresentationMonitor=0
