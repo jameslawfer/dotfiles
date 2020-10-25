@@ -79,6 +79,7 @@ linux-firmware
 linux-headers
 lsd
 lsof
+luit
 ly-git
 m4
 maim
@@ -133,7 +134,6 @@ tree
 universal-ctags-git
 unzip
 usbutils
-user-manager
 vim
 vim-youcompleteme-git
 virt-manager
@@ -156,7 +156,6 @@ xorg-fonts-100dpi
 xorg-fonts-75dpi
 xorg-fonts-encodings
 xorg-iceauth
-xorg-luit
 xorg-mkfontscale
 xorg-server
 xorg-server-common
