@@ -84,8 +84,10 @@ ly-git
 m4
 maim
 make
+masterpdfeditor
 milou
 minecraft-launcher
+montserrat-font-otf
 nano
 nerd-fonts-complete
 nmap
@@ -127,10 +129,12 @@ slack-desktop
 sudo
 systemsettings
 texinfo
+tidal-hifi-git
 tlp
 tmux
 traceroute
 tree
+ttf-opensans
 universal-ctags-git
 unzip
 usbutils
@@ -144,6 +148,7 @@ whatsapp-nativefier
 which
 whois
 wmctrl
+wps-office
 xarchiver
 xclip
 xdg-desktop-portal-kde

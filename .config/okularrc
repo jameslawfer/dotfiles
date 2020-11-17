@@ -22,36 +22,38 @@ detailViewIconSize=0
 Height 1440=1412
 Height 1800=848
 MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAABAQAAAaQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
+State=AAAA/wAAAAD9AAAAAAAABBEAAAaQAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBhAG4AbgBvAHQAYQB0AGkAbwBuAFQAbwBvAGwAQgBhAHIAAAAHGf////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 2560=2560
 Width 3200=1881
+eDP-1 DP-2 Height 1440=1362
+eDP-1 DP-2 Height 1800=1774
+eDP-1 DP-2 Width 2560=1241
+eDP-1 DP-2 Width 3200=3200
+eDP-1 DP-2 XPosition=1932
+eDP-1 DP-2 YPosition=52
 eDP-1 Height 1800=1722
-eDP-1 Width 3200=1028
-eDP-1 XPosition=2146
+eDP-1 Width 3200=1041
+eDP-1 XPosition=1293
 eDP-1 YPosition=52
 
 [Recent Files]
-File1[$e]=$HOME/Dropbox/Jobs/Calumino Thermal Imaging Solutions/Invoices/Invoice_29_Contract_Work.pdf
-File10[$e]=$HOME/Downloads/packing for 610x AP2.0 70A.pdf
-File2[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_003 DM Beta Assembly Guide/WOI-DM1-000_DM_Beta_Assembly_r2_00.pdf
-File3[$e]=$HOME/Dropbox/!!UNORGANISED/Uni/James/PSYC3241/lecture-1-PSYC3241-2020.pdf
-File4[$e]=$HOME/Dropbox/!!UNORGANISED/Uni/James/PSYC2081/2015 S1 Psychology Student Guide - 20150206.pdf
-File5[$e]=$HOME/Dropbox/!!UNORGANISED/Uni/James/PSYC2081/PSYC2081_courseoutline_2015.pdf
-File6[$e]=$HOME/Dropbox/!!UNORGANISED/Uni/James/PSYC2071/2017  S2  PSYC2071 Course Outline.pdf
-File7[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/02 Component Specifications and Datasheets/05 Flash Storage/w25m02gv revf 050918 unsecured.pdf
-File8[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_006 AP2.0 Assembly Work Instructions/201015_WOI-AP1-000_AP2.0_Assembly_Guide_WPROC-ONLY.pdf
-File9[$e]=$HOME/Dropbox/Propeller/11 AP2.0 and DirtMate/31 Outgoing Manufacturing Packages/200903_AP2_0_ENCLOSURE_rc6/AP2.0_Marks480x480_v2_Aug20 PRINT READY.pdf
-Name1[$e]=Invoice_29_Contract_Work.pdf
-Name10[$e]=packing for 610x AP2.0 70A.pdf
-Name2[$e]=WOI-DM1-000_DM_Beta_Assembly_r2_00.pdf
-Name3[$e]=lecture-1-PSYC3241-2020.pdf
-Name4[$e]=2015 S1 Psychology Student Guide - 20150206.pdf
-Name5[$e]=PSYC2081_courseoutline_2015.pdf
-Name6[$e]=2017  S2  PSYC2071 Course Outline.pdf
-Name7[$e]=w25m02gv revf 050918 unsecured.pdf
-Name8[$e]=201015_WOI-AP1-000_AP2.0_Assembly_Guide_WPROC-ONLY.pdf
-Name9[$e]=AP2.0_Marks480x480_v2_Aug20 PRINT READY.pdf
+File1[$e]=$HOME/Downloads/drive-download-20201103T021238Z-001/Battery Shipping Report - Sea - 2020.pdf
+File2[$e]=$HOME/Downloads/drive-download-20201103T021238Z-001/Safety Shipping Report - 4 Batteries.pdf
+File3[$e]=$HOME/Downloads/drive-download-20201103T021238Z-001/Safety Shipping Report - 3 Batteries.pdf
+File4[$e]=$HOME/Downloads/drive-download-20201103T021238Z-001/Safety Shipping Report - 2 Batteries.pdf
+File5[$e]=$HOME/Dropbox/Practical Philosophy/P1-S6_2020 Handout_.pdf
+File6[$e]=$HOME/Dropbox/Propeller/20 Documentation/DOC_006 AP2.0 Assembly Work Instructions/WOI-AP1-000_AP2.0_Assembly_Guide_V1.30.pdf
+File7[$e]=$HOME/Downloads/Checkout - Gate Automation Warehouse.pdf
+File8[$e]=$HOME/Downloads/serials.pdf
+Name1[$e]=Battery Shipping Report - Sea - 2020.pdf
+Name2[$e]=Safety Shipping Report - 4 Batteries.pdf
+Name3[$e]=Safety Shipping Report - 3 Batteries.pdf
+Name4[$e]=Safety Shipping Report - 2 Batteries.pdf
+Name5[$e]=P1-S6_2020 Handout_.pdf
+Name6[$e]=WOI-AP1-000_AP2.0_Assembly_Guide_V1.30.pdf
+Name7[$e]=Checkout - Gate Automation Warehouse.pdf
+Name8[$e]=serials.pdf
 
 [SlideShow]
 PresentationMonitor=0

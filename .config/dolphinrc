@@ -11,7 +11,7 @@ DefaultProfile=Profile 1.profile
 
 [DetailsMode]
 FontWeight=50
-PreviewSize=22
+PreviewSize=16
 
 [DownloadDialog Settings]
 Height 1800=544
@@ -49,10 +49,14 @@ ToolBarsMovable=Disabled
 Width 1920=940
 Width 2560=1230
 Width 3200=1230
+eDP-1 DP-2 Height 1800=750
+eDP-1 DP-2 Width 3200=1230
+eDP-1 DP-2 XPosition=1133
+eDP-1 DP-2 YPosition=349
 eDP-1 Height 1800=750
 eDP-1 Width 3200=1230
-eDP-1 XPosition=1242
-eDP-1 YPosition=663
+eDP-1 XPosition=978
+eDP-1 YPosition=569
 
 [Open-with settings]
 CompletionMode=1
@@ -67,6 +71,8 @@ Location=Everywhere
 [SettingsDialog]
 Height 1800=529
 Width 3200=709
+eDP-1 Height 1800=529
+eDP-1 Width 3200=709
 
 [VersionControl]
 enabledPlugins=Dropbox,Git
