@@ -161,6 +161,10 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Ctrl+Left workspace prev
 bindsym $mod+Ctrl+Right workspace next
 
+# move focused workspace between monitors
+bindsym $mod+Ctrl+greater move workspace to output up
+bindsym $mo+Ctrl+less move workspace to output down
+
 # scratchpad commands
 bindsym $mod+Shift+s [workspace=__focused__ floating] move scratchpad
 bindsym $mod+s [class=.*] scratchpad show
@@ -318,6 +322,9 @@ mode "$mode_gaps_outer" {
 ############### CLASS WINDOW RULES
 for_window [class="vlc"] floating enable
 for_window [class="feh"] floating enable
+#for_window [class="qalculate-gtk"] floating enable
+for_window [class="Qalculate-gtk"] floating enable
+for_window [class="scrcpy"] floating enable
 # feh -.Zd --start-at %f
 
 # Start polybar

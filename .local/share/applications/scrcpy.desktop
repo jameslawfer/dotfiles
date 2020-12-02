@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=scrcpy
+StartupWMClass=scrcpy
+Comment=Android Device Mirror
+GenericName=Android Device Mirror
+Exec=scrcpy --window-width 600 %U
+Icon=
+Type=Application
+StartupNotify=true
+Categories=Utility;
