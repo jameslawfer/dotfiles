@@ -55,12 +55,12 @@ eDP-1 DP-2 XPosition=1133
 eDP-1 DP-2 YPosition=349
 eDP-1 Height 1800=750
 eDP-1 Width 3200=1230
-eDP-1 XPosition=978
-eDP-1 YPosition=569
+eDP-1 XPosition=985
+eDP-1 YPosition=524
 
 [Open-with settings]
 CompletionMode=1
-History=feh -.Zd --start-at %f,feh -.Zd --start-at %f --reload 0.05,feh -.Zd -S name,feh -.Zd -S name .,feh --scale-down --auto-zoom -d,feh --scale-down --auto-zoom,feh,calligra,okul,vlc,vim
+History=sheet,feh -.Zd --start-at %f,feh -.Zd --start-at %f --reload 0.05,feh -.Zd -S name,feh -.Zd -S name .,feh --scale-down --auto-zoom -d,feh --scale-down --auto-zoom,feh,calligra,okul,vlc,vim
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail

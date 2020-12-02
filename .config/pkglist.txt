@@ -1,5 +1,7 @@
 acpi
 alsa-utils
+android-tools
+android-udev
 ark
 autoconf
 automake
@@ -118,12 +120,15 @@ polybar
 polychromatic
 powerdevil
 powertop
+pulseaudio-bluetooth
 python-libevdev
 python-notify2
+qalculate-gtk
 qbittorrent
 qemu
 ranger
 rofi
+scrcpy
 sddm-kcm
 slack-desktop
 sudo
@@ -142,6 +147,7 @@ vim
 vim-youcompleteme-git
 virt-manager
 virt-viewer
+visual-studio-code-bin
 vlc
 wget
 whatsapp-nativefier
