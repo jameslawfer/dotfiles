@@ -10,7 +10,7 @@ ShowOSD=false
 
 [Main View]
 ShowLeftPanel=false
-SplitterSizes=106,2985
+SplitterSizes=385,2814
 
 [Nav Panel]
 SidebarIconSize=32

@@ -37,6 +37,8 @@ detailViewIconSize=0
 [KPropertiesDialog]
 Height 1800=630
 Width 3200=545
+eDP-1 DP-2 Height 1800=600
+eDP-1 DP-2 Width 3200=545
 
 [MainWindow]
 Height 1080=530
@@ -44,29 +46,38 @@ Height 1440=750
 Height 1800=750
 MenuBar=Disabled
 RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADUAAACSvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAoAAAAfgAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAoAAACSgAAAF0BAAADAAAAAQAAAXwAAAL+/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACgAAAL+AAAACgEAAAMAAAADAAAEzgAAAHv8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAEzgAAAJEBAAADAAAD+QAAAkoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADUAAACQvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAoAAAAfgAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAACQgAAAF0BAAADAAAAAQAAAXwAAAJK/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACgAAAJKAAAACgEAAAMAAAADAAAEzgAAAHv8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAEzgAAAJEBAAADAAAD+QAAAkIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1920=940
 Width 2560=1230
 Width 3200=1230
+eDP-1 DP-1 Height 1080=680
+eDP-1 DP-1 Height 1800=530
+eDP-1 DP-1 Width 1920=1140
+eDP-1 DP-1 Width 3200=940
+eDP-1 DP-1 XPosition=719
+eDP-1 DP-1 YPosition=362
+eDP-1 DP-2 Height 1440=750
 eDP-1 DP-2 Height 1800=750
+eDP-1 DP-2 Width 2560=1230
 eDP-1 DP-2 Width 3200=1230
-eDP-1 DP-2 XPosition=1133
-eDP-1 DP-2 YPosition=349
-eDP-1 Height 1800=750
-eDP-1 Width 3200=1230
-eDP-1 XPosition=985
-eDP-1 YPosition=524
+eDP-1 DP-2 XPosition=1219
+eDP-1 DP-2 YPosition=1949
+eDP-1 Height 1800=680
+eDP-1 Height 3200x1800=750
+eDP-1 Width 3200=1140
+eDP-1 Width 3200x1800=1230
+eDP-1 XPosition=1208
+eDP-1 XPosition 3200x1800=985
+eDP-1 YPosition=534
+eDP-1 YPosition 3200x1800=524
 
 [Open-with settings]
 CompletionMode=1
-History=sheet,feh -.Zd --start-at %f,feh -.Zd --start-at %f --reload 0.05,feh -.Zd -S name,feh -.Zd -S name .,feh --scale-down --auto-zoom -d,feh --scale-down --auto-zoom,feh,calligra,okul,vlc,vim
+History=wps,sheet,feh -.Zd --start-at %f,feh -.Zd --start-at %f --reload 0.05,feh -.Zd -S name,feh -.Zd -S name .,feh --scale-down --auto-zoom -d,feh --scale-down --auto-zoom,feh,calligra,okul,vlc,vim
 
 [PreviewSettings]
 Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail
-
-[Search]
-Location=Everywhere
 
 [SettingsDialog]
 Height 1800=529

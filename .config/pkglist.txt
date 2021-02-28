@@ -61,7 +61,8 @@ kicad
 kinfocenter
 kitty
 kmenuedit
-knetattach
+kmines
+kmon
 knights
 kscreen
 kscreenlocker
@@ -91,14 +92,17 @@ milou
 minecraft-launcher
 montserrat-font-otf
 nano
+ncdu
 nerd-fonts-complete
 nmap
 nordvpn-bin
+noto-fonts-emoji
 nss-mdns
 okular
 openrazer-meta
 openssh
 oxygen
+pacman-contrib
 patch
 perl-anyevent-i3
 perl-json-xs
@@ -131,6 +135,7 @@ rofi
 scrcpy
 sddm-kcm
 slack-desktop
+speedtest-cli
 sudo
 systemsettings
 texinfo
@@ -141,6 +146,7 @@ traceroute
 tree
 ttf-opensans
 universal-ctags-git
+unrar
 unzip
 usbutils
 vim
@@ -175,7 +181,6 @@ xorg-server-xdmx
 xorg-server-xephyr
 xorg-server-xnest
 xorg-server-xvfb
-xorg-server-xwayland
 xorg-sessreg
 xorg-setxkbmap
 xorg-smproxy
@@ -206,6 +211,7 @@ xorg-xrefresh
 xorg-xset
 xorg-xsetroot
 xorg-xvinfo
+xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
