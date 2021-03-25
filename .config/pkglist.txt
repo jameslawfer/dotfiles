@@ -102,6 +102,7 @@ okular
 openrazer-meta
 openssh
 oxygen
+p7zip
 pacman-contrib
 patch
 perl-anyevent-i3
@@ -138,6 +139,7 @@ slack-desktop
 speedtest-cli
 sudo
 systemsettings
+telegram-desktop
 texinfo
 tidal-hifi-git
 tlp

@@ -32,20 +32,25 @@ PreviewSize=176
 [KFileDialog Settings]
 Recent Files[$e]=dropboxstatus-logo.png,file:$HOME/Downloads/PropellerLogo-Glyph-White.svg,file:$HOME/Downloads/PropellerLogo-Glyph-Black.png,file:$HOME/Downloads/PropellerLogo-Glyph-Boxed.png,file:///opt/dropbox/images/hicolor/16x16/status/dropboxstatus-logo.png
 Recent URLs[$e]=file:///opt/dropbox/images/emblems/,file:///usr/share/pixmaps/,file:$HOME/,file:///opt/dropbox/images/hicolor/16x16/status/,file:$HOME/Downloads/
-detailViewIconSize=0
+detailViewIconSize=16
 
 [KPropertiesDialog]
 Height 1800=630
 Width 3200=545
 eDP-1 DP-2 Height 1800=600
 eDP-1 DP-2 Width 3200=545
+eDP-1 Height 3200x1800=630
+eDP-1 Width 3200x1800=545
 
 [MainWindow]
+:0.0 Height 3200x1800=750
+:0.0 Width 3200x1800=1230
+:0.0 XPosition 3200x1800=985
+:0.0 YPosition 3200x1800=524
 Height 1080=530
 Height 1440=750
 Height 1800=750
 MenuBar=Disabled
-RestorePositionForNextInstance=false
 State=AAAA/wAAAAD9AAAAAwAAAAAAAADUAAACQvwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAoAAAAfgAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAwAAACQgAAAF0BAAADAAAAAQAAAXwAAAJK/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAACgAAAJKAAAACgEAAAMAAAADAAAEzgAAAHv8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAAEzgAAAJEBAAADAAAD+QAAAkIAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1920=940
@@ -68,9 +73,9 @@ eDP-1 Height 3200x1800=750
 eDP-1 Width 3200=1140
 eDP-1 Width 3200x1800=1230
 eDP-1 XPosition=1208
-eDP-1 XPosition 3200x1800=985
+eDP-1 XPosition 3200x1800=1920
 eDP-1 YPosition=534
-eDP-1 YPosition 3200x1800=524
+eDP-1 YPosition 3200x1800=763
 
 [Open-with settings]
 CompletionMode=1
