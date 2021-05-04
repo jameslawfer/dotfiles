@@ -326,6 +326,7 @@ for_window [class="feh"] floating enable
 for_window [class="Qalculate-gtk"] floating enable
 for_window [class="scrcpy"] floating enable
 for_window [title="Figure*" class="MATLAB R2021a - academic use"] floating enable
+for_window [title="Preferences" class="MATLAB R2021a - academic use"] floating enable
 # feh -.Zd --start-at %f
 
 # Start polybar
