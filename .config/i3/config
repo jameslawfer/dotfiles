@@ -65,6 +65,9 @@ bindsym $mod+d exec --no-startup-id rofi -show drun -width 30
 bindsym Print exec --no-startup-id "maim -s | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Pictures/Screenshots/$(date +%F-%H:%M:%S).png"
 bindsym Shift+Print exec --no-startup-id "maim | xclip -selection clipboard -t image/png; xclip -selection clipboard -t image/png -o > ~/Pictures/Screenshots/$(date +%F-%H:%M:%S).png"
 
+# Use xkb-switch to switch keyboard layout (sequentially)
+bindsym $mod+ctrl+space exec "xkb-switch -n; killall -SIGUSR1 i3status"
+
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
@@ -235,7 +238,8 @@ bar {
 
         i3bar_command i3bar --transparency
         mode dock
-        status_command i3status
+#        status_command i3status
+        status_command ~/.config/i3/scripts/i3status_ext.sh
         tray_output primary
         position top
 }
