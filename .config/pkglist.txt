@@ -14,6 +14,7 @@ bluedevil
 bluez-utils
 breeze
 breeze-gtk
+byobu
 calligra
 caprine
 cups
@@ -46,11 +47,13 @@ gnuchess
 google-chrome
 gptfdisk
 groff
+htop
 i3-gaps
 i3blocks
 i3status
 insync
 intel-ucode
+iptraf-ng
 iwd
 jq
 kactivitymanagerd
@@ -103,6 +106,7 @@ montserrat-font-otf
 nano
 ncdu
 nerd-fonts-complete
+nethogs
 nmap
 nordvpn-bin
 noto-fonts-emoji
