@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=BluOS Controller
+GenericName=BluOS Device Control
+Comment=Official BlueSound BluOS repackaaged for Linux
+Icon=tidal
+Exec=/home/james/Source/BluOS-Linux/BluOS\ Controller-3.12.3.AppImage %U
+Categories=Music;
+StartupNotify=true
