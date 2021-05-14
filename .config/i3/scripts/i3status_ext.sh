@@ -9,8 +9,18 @@ do
   KBDTEXT=" $KBD"
   KBDCOLOUR="#FFFFFF"
 
+  POWSOURCE=$(~/.config/i3/scripts/charger_status.sh | sed 's/_.*//')
+  POWSTATUS=$(~/.config/i3/scripts/charger_status.sh | sed 's/.*_//')
+  POWCOLOUR="#FFFFFF"
+
   if [ $KBD != 'US' ] ; then
     KBDCOLOUR="#00FFFB"
+  fi
+  if [ $POWSOURCE == 'AC' ] && [ $POWSTATUS == 'CHARG' ] ; then
+    POWCOLOUR="#00FFFB"
+  elif [ $POWSOURCE == 'AC' ] && [ $POWSTATUS == 'NOCHR' ] ; then
+    POWCOLOUR="#OOFF9D"
+#   POWCOLOUR="#00FFB7"
   fi
 
   if [ "$line" == '{"version":1}' ] || [ "$line" == "[" ] ; then
