@@ -3,6 +3,7 @@ alsa-utils
 android-tools
 android-udev
 ark
+asar
 autoconf
 automake
 barrier
@@ -107,7 +108,9 @@ nano
 ncdu
 nerd-fonts-complete
 nethogs
+networkd-dispatcher
 nmap
+nodejs-nativefier
 nordvpn-bin
 noto-fonts-emoji
 nss-mdns
@@ -139,6 +142,7 @@ polybar
 polychromatic
 powerdevil
 powertop
+prettier
 pulseaudio-bluetooth
 python-libevdev
 python-notify2
@@ -232,5 +236,6 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yakuake
+yarn
 yay
 zoom
