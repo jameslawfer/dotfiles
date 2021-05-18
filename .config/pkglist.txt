@@ -110,7 +110,6 @@ nerd-fonts-complete
 nethogs
 networkd-dispatcher
 nmap
-nodejs-nativefier
 nordvpn-bin
 noto-fonts-emoji
 nss-mdns
@@ -159,6 +158,18 @@ sudo
 systemsettings
 telegram-desktop
 texinfo
+texlive-bibtexextra
+texlive-core
+texlive-fontsextra
+texlive-formatsextra
+texlive-games
+texlive-humanities
+texlive-latexextra
+texlive-music
+texlive-pictures
+texlive-pstricks
+texlive-publishers
+texlive-science
 tidal-hifi-git
 tlp
 tmux
@@ -169,6 +180,7 @@ unrar
 unzip
 usbutils
 vim
+vim-plug
 vim-youcompleteme-git
 virt-manager
 virt-viewer
