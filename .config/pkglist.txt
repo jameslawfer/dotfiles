@@ -125,6 +125,7 @@ perl-anyevent-i3
 perl-json-xs
 picom
 pkgconf
+pkgfile
 plasma-browser-integration
 plasma-desktop
 plasma-integration
@@ -149,6 +150,7 @@ qalculate-gtk
 qbittorrent
 qemu
 ranger
+rmlint
 rofi
 scrcpy
 sddm-kcm
@@ -251,3 +253,4 @@ yakuake
 yarn
 yay
 zoom
+zsh
