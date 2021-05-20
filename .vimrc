@@ -57,3 +57,19 @@ autocmd BufRead,BufNewFile *.py let python_highlight_all=1
 "autocmd FileType python nnoremap <buffer> <F9> :exec '!python3' shellescape(@%, 1)<cr>
 autocmd BufWinEnter *.py nnoremap <F9> :w<CR>:!python3 '%'<CR>
 autocmd BufWinEnter *.tcl nnoremap <F10> :w<CR>:!ns '%'<CR>
+
+" Setup lightline
+set laststatus=2
+set noshowmode
+
+"""""""""""""""vim-plug
+call plug#begin('~/.vim/plugged')
+Plug 'itchyny/lightline.vim'
+Plug 'lervag/vimtex'
+
+call plug#end()
+
+" Setup lightline
+let g:lightline = {
+            \ 'colorscheme': 'molokai',
+            \ }
