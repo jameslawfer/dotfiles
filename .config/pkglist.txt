@@ -11,6 +11,7 @@ base
 bind
 binutils
 bison
+blender
 bluedevil
 bluez-utils
 breeze
@@ -149,6 +150,7 @@ python-notify2
 qalculate-gtk
 qbittorrent
 qemu
+qgis
 ranger
 rmlint
 rofi
