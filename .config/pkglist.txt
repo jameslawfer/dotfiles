@@ -154,10 +154,12 @@ qgis
 ranger
 rmlint
 rofi
+samba
 scrcpy
 sddm-kcm
 slack-desktop
 speedtest-cli
+spek-git
 sudo
 systemsettings
 telegram-desktop
@@ -254,5 +256,6 @@ xorg-xwud
 yakuake
 yarn
 yay
+youtube-dl
 zoom
 zsh
