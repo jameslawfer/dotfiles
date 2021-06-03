@@ -42,10 +42,12 @@ firefox
 fish
 flex
 gcc
+gendesk
 gifski
 git
 gnu-netcat
 gnuchess
+go
 google-chrome
 gptfdisk
 groff
