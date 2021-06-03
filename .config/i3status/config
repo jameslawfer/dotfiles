@@ -52,18 +52,18 @@ battery all {
 }
 
 disk "/" {
-        format = "/:%avail"
-        format_below_threshold = "<DISK> /:%avail"
+        format = " /:%avail"
+        format_below_threshold = "<|DISK /:%avail|>"
         prefix_type = custom
         low_threshold = 20
         threshold_type = percentage_avail
 }
 
 disk "/home" {
-        format = "/home:%avail"
-        format_below_threshold = "<DISK> /home:%avail"
+        format = " /home:%avail"
+        format_below_threshold = "<|DISK /home:%avail|>"
         prefix_type = custom
-        low_threshold = 25
+        low_threshold = 15
         threshold_type = percentage_avail
 }
 
