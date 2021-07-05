@@ -1,5 +1,4 @@
 alias ls='lsd'
-alias lt='ls -la'
 
 # Alias for tracking dotfiles with git easily (see https://news.ycombinator.com/item?id=11070797)
 alias gitdot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -13,6 +12,7 @@ alias fsic='find . -name'
 # some more ls aliases
 alias ll='ls -l'
 alias lt='ls -lhA'
+alias lr='ls -lhAt | head'
 
 alias getwanip='wget -qO- http://ipecho.net/plain ; echo'
 
