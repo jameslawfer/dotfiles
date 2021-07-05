@@ -32,6 +32,7 @@ dolphin
 dolphin-plugins
 drkonqi
 dropbox
+dterm
 dunst
 ebtables
 edk2-ovmf
@@ -42,12 +43,10 @@ firefox
 fish
 flex
 gcc
-gendesk
 gifski
 git
 gnu-netcat
 gnuchess
-go
 google-chrome
 gptfdisk
 groff
@@ -55,6 +54,7 @@ htop
 i3-gaps
 i3blocks
 i3status
+inetutils
 insync
 intel-ucode
 iptraf-ng
@@ -106,9 +106,11 @@ make
 masterpdfeditor
 milou
 minecraft-launcher
+minicom
 montserrat-font-otf
 nano
 ncdu
+ncftp
 nerd-fonts-complete
 nethogs
 networkd-dispatcher
@@ -154,6 +156,7 @@ qbittorrent
 qemu
 qgis
 ranger
+reflector
 rmlint
 rofi
 samba

@@ -7,12 +7,13 @@ eDP-1 XPosition 3200x1800=1613
 eDP-1 YPosition 3200x1800=52
 
 [Desktop Entry]
-DefaultProfile=Profile 1.profile
+DefaultProfile=Standard Zsh.profile
 
 [Favorite Profiles]
 Favorites=Yakuake.profile
 
 [KonsoleWindow]
+SaveGeometryOnExit=false
 ShowMenuBarByDefault=false
 
 [MainWindow]
@@ -23,23 +24,10 @@ Height 900=886
 MenuBar=Disabled
 State=AAAA/wAAAAD9AAAAAAAABhkAAAa6AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAAAAAAHABzAGUAcwBzAGkAbwBuAFQAbwBvAGwAYgBhAHIAAAACNP////8AAAAAAAAAAA==
 StatusBar=Disabled
+ToolBarsMovable=Disabled
 Width 1600=1600
 Width 2560=2560
 Width 3200=1881
 Width 3840=3840
-eDP-1 DP-2 Height 1080=1002
-eDP-1 DP-2 Height 1440=514
-eDP-1 DP-2 Height 1800=1722
-eDP-1 DP-2 Width 1920=921
-eDP-1 DP-2 Width 2560=910
-eDP-1 DP-2 Width 3200=1561
-eDP-1 DP-2 XPosition=1613
-eDP-1 DP-2 YPosition=1492
-eDP-1 Height 1800=1722
-eDP-1 Height 3200x1800=1722
-eDP-1 Width 3200=1041
-eDP-1 Width 3200x1800=1561
-eDP-1 XPosition=1293
-eDP-1 XPosition 3200x1800=1613
-eDP-1 YPosition=52
+eDP-1 XPosition 3200x1800=1293
 eDP-1 YPosition 3200x1800=52
