@@ -151,6 +151,7 @@ prettier
 pulseaudio-bluetooth
 python-libevdev
 python-notify2
+python-poetry
 qalculate-gtk
 qbittorrent
 qemu
@@ -197,6 +198,7 @@ virt-manager
 virt-viewer
 visual-studio-code-bin
 vlc
+vnstat
 wget
 whatsapp-nativefier
 which
