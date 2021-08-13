@@ -1,1 +1,50 @@
-{"1": {"name": "White", "col": [255, 255, 255]}, "2": {"name": "Red", "col": [255, 0, 0]}, "3": {"name": "Orange", "col": [255, 165, 0]}, "4": {"name": "Yellow", "col": [255, 255, 0]}, "5": {"name": "Signature Green", "col": [0, 255, 0]}, "6": {"name": "Aqua", "col": [0, 255, 255]}, "7": {"name": "Blue", "col": [0, 0, 255]}, "8": {"name": "Purple", "col": [128, 0, 128]}, "9": {"name": "Pink", "col": [255, 0, 255]}}
+[
+    {
+        "hex": "#FFFFFF",
+        "name": "White"
+    },
+    {
+        "hex": "#FF0000",
+        "name": "Red"
+    },
+    {
+        "hex": "#00FF00",
+        "name": "Green"
+    },
+    {
+        "hex": "#0000FF",
+        "name": "Blue"
+    },
+    {
+        "hex": "#00FFFF",
+        "name": "Aqua"
+    },
+    {
+        "hex": "#FFA500",
+        "name": "Orange"
+    },
+    {
+        "hex": "#FF00FF",
+        "name": "Pink"
+    },
+    {
+        "hex": "#8000FF",
+        "name": "Purple"
+    },
+    {
+        "hex": "#FFFF00",
+        "name": "Yellow"
+    },
+    {
+        "hex": "#C0C0C0",
+        "name": "Light Grey"
+    },
+    {
+        "hex": "#7F7F7F",
+        "name": "Dark Grey"
+    },
+    {
+        "hex": "#000000",
+        "name": "Black"
+    }
+]
