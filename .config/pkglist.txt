@@ -92,6 +92,7 @@ libinput-gestures
 libkscreen
 libksysguard
 libmicrodns
+libsass
 libtool
 linux
 linux-firmware
@@ -114,6 +115,7 @@ ncftp
 nerd-fonts-complete
 nethogs
 networkd-dispatcher
+nfs-utils
 nmap
 nordvpn-bin
 noto-fonts-emoji
@@ -149,9 +151,12 @@ powerdevil
 powertop
 prettier
 pulseaudio-bluetooth
+python-colorama
+python-colour
 python-libevdev
 python-notify2
 python-poetry
+python-pyqt5-webengine
 qalculate-gtk
 qbittorrent
 qemu
@@ -161,6 +166,7 @@ reflector
 rmlint
 rofi
 samba
+sassc
 scrcpy
 sddm-kcm
 slack-desktop
