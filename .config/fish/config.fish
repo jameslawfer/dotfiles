@@ -17,3 +17,6 @@ alias lr='ls -lhAt | head'
 alias getwanip='wget -qO- http://ipecho.net/plain ; echo'
 
 alias fif='grep -iRl'
+
+# copy with rsync/progress alias
+alias rp='rsync -ha --progress'
