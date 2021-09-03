@@ -97,6 +97,12 @@ alias ll='ls -l'
 alias la='ls -la'
 alias lr='ls -lAt | head'
 
+# copy with rsync/progress alias
+alias rp='rsync -ha --progress'
+
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
