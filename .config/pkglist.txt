@@ -57,6 +57,7 @@ i3status
 inetutils
 insync
 intel-ucode
+iperf3
 iptraf-ng
 iwd
 jq
@@ -92,7 +93,6 @@ libinput-gestures
 libkscreen
 libksysguard
 libmicrodns
-libsass
 libtool
 linux
 linux-firmware
@@ -105,6 +105,7 @@ m4
 maim
 make
 masterpdfeditor
+metasploit
 milou
 minecraft-launcher
 minicom
@@ -147,16 +148,14 @@ plex-media-player
 polkit-kde-agent
 polybar
 polychromatic
+postgresql
 powerdevil
 powertop
 prettier
 pulseaudio-bluetooth
-python-colorama
-python-colour
 python-libevdev
 python-notify2
 python-poetry
-python-pyqt5-webengine
 qalculate-gtk
 qbittorrent
 qemu
@@ -165,8 +164,8 @@ ranger
 reflector
 rmlint
 rofi
+rsync
 samba
-sassc
 scrcpy
 sddm-kcm
 slack-desktop
