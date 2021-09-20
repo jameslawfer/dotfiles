@@ -197,10 +197,11 @@ mode "WS10+" {
         bindsym $mod+Shift+9 move container to workspace number $ws19
         bindsym $mod+Shift+0 move container to workspace number $ws20
 
-        # back to normal: Enter or Escape or $mod+r
+        # back to normal: Enter or Escape or $mod+w
         bindsym Return mode "default"
         bindsym Escape mode "default"
-        bindsym $mod+w mode "default" # Maybe make this a link to the next mode WS20+
+        bindsym $mod+w mode "default"
+        # Maybe make this a link to the next mode WS20+
 }
 
 bindsym $mod+w mode "WS10+"
