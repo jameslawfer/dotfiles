@@ -37,6 +37,7 @@ window {
     background-color: @background;
     border:           0;
     padding:          8;
+    width:            30%;
 }
 mainbox {
     border:  0;
@@ -99,10 +100,10 @@ element alternate.active {
     text-color:       @alternate-active-foreground;
 }
 scrollbar {
-    width:        4px;
+    width:        0px;
     border:       0;
     handle-color: rgba ( 85, 85, 85, 100 % );
-    handle-width: 8px;
+    handle-width: 0px;
     padding:      0;
 }
 mode-switcher {

@@ -58,7 +58,7 @@ bindsym $mod+q kill
 
 # start dmenu/rofi (a program launcher)
 #bindsym $mod+d exec dmenu_run
-bindsym $mod+d exec --no-startup-id rofi -show drun -width 30
+bindsym $mod+d exec --no-startup-id rofi -show drun
 
 # Use maim and xclip to screenshot regions or whole screens and drop them in the clipboard
 # Also save the screenshot in the folder ~/Pictures/Screenshots
