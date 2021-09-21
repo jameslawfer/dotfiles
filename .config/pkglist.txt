@@ -83,6 +83,7 @@ kmon
 knights
 kscreen
 kscreenlocker
+ksnip
 ksshaskpass
 ksysguard
 kwallet-pam
@@ -265,6 +266,7 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+xournalpp
 yakuake
 yarn
 yay
