@@ -20,3 +20,6 @@ alias fif='grep -iRl'
 
 # copy with rsync/progress alias
 alias rp='rsync -ha --progress'
+
+# Alias for reminding not to use rm and use trash-cli instead
+alias rm='echo "Nope use trash instead! (If you really need rm just prepend as follows: command rm <file>)"; false'
