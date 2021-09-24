@@ -192,6 +192,7 @@ tidal-hifi-git
 tlp
 tmux
 traceroute
+trash-cli
 tree
 ttf-opensans
 unrar
