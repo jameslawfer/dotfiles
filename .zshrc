@@ -26,7 +26,7 @@ zstyle ':z4h:autosuggestions' forward-char     'accept'
 zstyle ':z4h:ssh:*'           send-extra-files '~/.iterm2_shell_integration.zsh'
 # Disable automatic teleportation of z4h over ssh when connecting to some-host.
 # This makes `ssh some-host` equivalent to `command ssh some-host`.
-zstyle ':z4h:ssh:some-host'   passthrough      'yes'
+#zstyle ':z4h:ssh:some-host'   passthrough      'yes'
 
 # Move the cursor to the end when Up/Down fetches a command from history?
 zstyle ':zle:up-line-or-beginning-search'   leave-cursor 'yes'
@@ -81,7 +81,7 @@ function md() { [[ $# == 1 ]] && mkdir -p -- "$1" && cd -- "$1" }
 compdef _directories md
 
 # Replace `ssh` with `z4h ssh` to automatically teleport z4h to remote hosts.
-function ssh() { z4h ssh "$@" }
+#function ssh() { z4h ssh "$@" }
 
 # Define named directories: ~w <=> Windows home directory on WSL.
 [[ -n $z4h_win_home ]] && hash -d w=$z4h_win_home
