@@ -1,4 +1,6 @@
 [user]
-	name = James Lawira-Fernandez
-	email = jameslf9594@gmail.com
-	signingkey = 3F05071B
+    # Values set in ~/.gitlocal
+[include]
+    path = ~/.gitlocal
+[core]
+	editor = vim
