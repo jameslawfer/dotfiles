@@ -2,5 +2,54 @@
     # Values set in ~/.gitlocal
 [include]
     path = ~/.gitlocal
+
+[alias]
+    # Graphed log view
+    graph = log --oneline --graph --decorate --abbrev-commit
+
+    # Show verbose output about tags, branches or remotes
+    tags = tag -l
+    branches = branch -a
+    remotes = remote -v
+
+    # Amend the currently staged files to the latest commit
+    amend = commit --amend --reuse-message=HEAD
+
+	# Interactive rebase with the given number of latest commits
+    reb = "!r() { git rebase -i HEAD~$1; }; r"
+
+	# List contributors with number of commits
+	contributors = shortlog --summary --numbered
 [core]
 	editor = vim
+
+    # Treat many types of whitespaces as an error
+    whitespace = blank-at-eol,space-before-tab,-indent-with-non-tab,blank-at-eof,trailing-space
+
+[color]
+    ui = auto
+
+[color "status"]
+
+	added = "#56FF40"
+	changed = "#00FFFB"
+	untracked = "#FF40EF"
+
+[color "branch"]
+
+	current = "#56FF40"
+	local = "#00FFFB"
+	remote = "#FFCC40"
+
+[color "diff"]
+
+	meta = "#FFCC40" bold
+	frag = "#9940FF" bold # line info
+	old = "#FF4066" # deletions
+	new = "#56FF40" # additions
+
+[fetch]
+    prune = true
+
+[commit]
+    gpgsign = true
