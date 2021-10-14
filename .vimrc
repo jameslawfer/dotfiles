@@ -1,12 +1,53 @@
+" All system-wide defaults are set in $VIMRUNTIME/archlinux.vim (usually just
+" /usr/share/vim/vimfiles/archlinux.vim) and sourced by the call to :runtime
+" you can find below.  If you wish to change any of those settings, you should
+" do it in this file (/etc/vimrc), since archlinux.vim will be overwritten
+" everytime an upgrade of the vim packages is performed.  It is recommended to
+" make changes after sourcing archlinux.vim since it alters the value of the
+" 'compatible' option.
+
+" This line should not be removed as it ensures that various options are
+" properly set to work with the Vim-related packages.
+runtime! archlinux.vim
+
+" If you prefer the old-style vim functionalty, add 'runtime! vimrc_example.vim'
+" Or better yet, read /usr/share/vim/vim80/vimrc_example.vim or the vim manual
+" and configure vim to your own liking!
+
+" do not load defaults if ~/.vimrc is missing
+"let skip_defaults_vim=1
+
 "Set UTF-8 file encoding
 set encoding=utf-8
 set fileencoding=utf-8
+
+"""""""""""""""vim-plug
+call plug#begin('~/.vim/plugged')
+
+"Statusline
+Plug 'itchyny/lightline.vim'
+"LaTeX Integration
+Plug 'lervag/vimtex'
+" Language/Syntax Packs
+Plug 'sheerun/vim-polyglot'
+" Directory Tree
+Plug 'preservim/nerdtree'
+" Git Tools
+Plug 'airblade/vim-gitgutter'
+" Colour Schemes
+Plug 'liuchengxu/space-vim-theme'
+Plug 'joshdick/onedark.vim'
+Plug 'bluz71/vim-moonfly-colors'
+Plug 'bignimbus/pop-punk.vim'
+Plug 'danilo-augusto/vim-afterglow'
+
+call plug#end()
 
 "Enable syntax highlighting
 syntax enable
 
 "Set colour scheme
-colorscheme koehler
+colorscheme onedark
 
 "Enable HYBRID numbering (relative numbering + normal numbers on active line)
 set number relativenumber
@@ -62,14 +103,24 @@ autocmd BufWinEnter *.tcl nnoremap <F10> :w<CR>:!ns '%'<CR>
 set laststatus=2
 set noshowmode
 
-"""""""""""""""vim-plug
-call plug#begin('~/.vim/plugged')
-Plug 'itchyny/lightline.vim'
-Plug 'lervag/vimtex'
-
-call plug#end()
-
 " Setup lightline
 let g:lightline = {
             \ 'colorscheme': 'molokai',
+            \ 'active': {
+            \ 'left'  : [ [ 'mode', 'paste' ],
+            \             [ 'readonly', 'filename', 'modified' ] ],
+            \ 'right' : [ [ 'lineinfo' ],
+            \             [ 'percent' ],
+            \             [ 'charvalue' ],
+            \             [ 'fullpath', 'fileformat', 'fileencoding', 'filetype' ] ]
+            \ },
+            \ 'component': {
+            \ 'fullpath' : '%F',
+            \ 'charvalue' : '<|%b:0x%B|>',
+            \ 'bytenumber' : '<|%o:0x%O|>'
+            \ },
             \ }
+
+" Setup NERDTree
+map <F5> :NERDTreeToggle<CR>
+set updatetime=100
