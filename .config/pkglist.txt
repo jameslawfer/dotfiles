@@ -36,6 +36,8 @@ dterm
 dunst
 ebtables
 edk2-ovmf
+evemu
+evtest
 fakeroot
 feh
 ffmpegthumbs
@@ -50,6 +52,7 @@ gnuchess
 google-chrome
 gptfdisk
 groff
+hid-apple-patched-git-dkms
 htop
 i3-gaps
 i3blocks
@@ -101,7 +104,7 @@ linux-headers
 lsd
 lsof
 luit
-ly-git
+ly
 m4
 maim
 make
@@ -210,6 +213,7 @@ wget
 whatsapp-nativefier
 which
 whois
+wireshark-qt
 wmctrl
 wps-office
 xarchiver
