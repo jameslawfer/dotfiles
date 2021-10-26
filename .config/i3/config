@@ -36,6 +36,11 @@ exec --no-startup-id nm-applet
 # Dunst is a drop in notification handler replacement
 exec --no-startup-id dunst
 
+# Dunst shortcuts settings are now defined in WM/DE config
+bindsym ctrl+space exec dunstctl close
+bindsym ctrl+shift+space exec dunstctl close-all
+bindsym ctrl+grave exec dunstctl history-pop
+
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
