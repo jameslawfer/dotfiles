@@ -34,7 +34,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Dunst is a drop in notification handler replacement
-exec --no-startup-id dunst
+exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
 # Dunst shortcuts settings are now defined in WM/DE config
 bindsym ctrl+space exec dunstctl close
