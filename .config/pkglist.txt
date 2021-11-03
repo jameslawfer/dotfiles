@@ -64,6 +64,7 @@ iperf3
 iptraf-ng
 iwd
 jq
+jre8-openjdk
 kactivitymanagerd
 kde-cli-tools
 kde-gtk-config
@@ -114,6 +115,7 @@ milou
 minecraft-launcher
 minicom
 montserrat-font-otf
+multimc-bin
 nano
 ncdu
 ncftp
@@ -122,6 +124,7 @@ nethogs
 networkd-dispatcher
 nfs-utils
 nmap
+nodejs-nativefier
 nordvpn-bin
 noto-fonts-emoji
 nss-mdns
