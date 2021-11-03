@@ -26,3 +26,6 @@ alias rm='echo "Nope use trash instead! (If you really need rm just prepend as f
 
 # Alias for connecting to a WiFi network on wlan0 interface
 alias iwcon='iwctl station wlan0 connect'
+
+# Alias for checking upower status
+alias charge='upower --dump'

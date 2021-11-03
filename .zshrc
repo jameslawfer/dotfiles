@@ -106,6 +106,9 @@ alias rm='echo "Nope use trash instead! (If you really need rm just prepend as f
 # Alias for connecting to a WiFi network on wlan0 interface
 alias iwcon='iwctl station wlan0 connect'
 
+# Alias for checking upower status
+alias charge='upower --dump'
+
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
 setopt no_auto_menu  # require an extra TAB press to open the completion menu
