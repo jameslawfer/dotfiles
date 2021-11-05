@@ -216,8 +216,10 @@ bindsym $mod+Ctrl+Left workspace prev
 bindsym $mod+Ctrl+Right workspace next
 
 # move focused workspace between monitors
-bindsym $mod+Ctrl+greater move workspace to output up
-bindsym $mo+Ctrl+less move workspace to output down
+bindsym $mod+Ctrl+Shift+Up move workspace to output up
+bindsym $mod+Ctrl+Shift+Down move workspace to output down
+bindsym $mod+Ctrl+Shift+Left move workspace to output left
+bindsym $mod+Ctrl+Shift+Right move workspace to output right
 
 # scratchpad commands
 bindsym $mod+Shift+s [workspace=__focused__ floating] move scratchpad
