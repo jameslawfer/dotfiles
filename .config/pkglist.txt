@@ -45,6 +45,7 @@ firefox
 fish
 flex
 gcc
+gendesk
 gifski
 git
 gnu-netcat
@@ -124,7 +125,6 @@ nethogs
 networkd-dispatcher
 nfs-utils
 nmap
-nodejs-nativefier
 nordvpn-bin
 noto-fonts-emoji
 nss-mdns
