@@ -386,6 +386,7 @@ for_window [title="Figure*" class="MATLAB R2021a - academic use"] floating enabl
 for_window [title="Preferences" class="MATLAB R2021a - academic use"] floating enable
 for_window [title="Blender Render" class="Blender"] floating enable
 for_window [class="Spek"] floating enable
+for_window [class="Matplotlib"] floating enable
 # feh -.Zd --start-at %f
 
 # Start polybar
