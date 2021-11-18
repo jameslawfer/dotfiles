@@ -45,7 +45,6 @@ firefox
 fish
 flex
 gcc
-gendesk
 gifski
 git
 gnu-netcat

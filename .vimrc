@@ -124,3 +124,7 @@ let g:lightline = {
 " Setup NERDTree
 map <F5> :NERDTreeToggle<CR>
 set updatetime=100
+
+" Point YouCompleteMe at system Python to fix YCM usage with Poetry Python
+" shell environments
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
