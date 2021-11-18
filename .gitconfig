@@ -26,6 +26,9 @@
     # Treat many types of whitespaces as an error
     whitespace = blank-at-eol,space-before-tab,-indent-with-non-tab,blank-at-eof,trailing-space
 
+[merge]
+    tool = vimdiff
+
 [color]
     ui = auto
 
