@@ -159,6 +159,7 @@ powerdevil
 powertop
 prettier
 pulseaudio-bluetooth
+python-black
 python-libevdev
 python-notify2
 python-poetry
