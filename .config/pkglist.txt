@@ -194,7 +194,8 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texlive-science
-tidal-hifi-git
+ticker
+tidal-hifi
 tlp
 tmux
 traceroute
