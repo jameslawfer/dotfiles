@@ -41,6 +41,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'bluz71/vim-moonfly-colors'
 Plug 'bignimbus/pop-punk.vim'
 Plug 'danilo-augusto/vim-afterglow'
+Plug 'arzg/vim-colors-xcode'
 
 call plug#end()
 
