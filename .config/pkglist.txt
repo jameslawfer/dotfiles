@@ -74,11 +74,7 @@ kdeplasma-addons
 kgamma5
 khotkeys
 kibom-git
-kicad-footprints-git
-kicad-git
-kicad-library-digikey-git
-kicad-packages3d-git
-kicad-symbols-git
+kicad
 kinfocenter
 kitty
 kmenuedit
@@ -102,6 +98,7 @@ libtool
 linux
 linux-firmware
 linux-headers
+logseq-desktop
 lsd
 lsof
 luit
@@ -125,6 +122,7 @@ networkd-dispatcher
 nfs-utils
 nmap
 nordvpn-bin
+noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 okular
@@ -178,8 +176,11 @@ sddm-kcm
 slack-desktop
 speedtest-cli
 spek-git
+steam
+strawberry
 sudo
 systemsettings
+tealdeer
 telegram-desktop
 texinfo
 texlive-bibtexextra
