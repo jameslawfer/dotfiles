@@ -125,6 +125,8 @@ nordvpn-bin
 noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
+octave
+octave-statistics
 okular
 openrazer-meta
 openssh
