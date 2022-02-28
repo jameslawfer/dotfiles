@@ -29,3 +29,6 @@ alias iwcon='iwctl station wlan0 scan && iwctl station wlan0 connect'
 
 # Alias for checking upower status
 alias charge='upower --dump'
+
+# Alias for excluding network storage from ncdu
+alias ncdu='ncdu --exclude /home/james/CATNAS'
