@@ -95,6 +95,7 @@ libkscreen
 libksysguard
 libmicrodns
 libtool
+libxcrypt-compat
 linux
 linux-firmware
 linux-headers
@@ -134,6 +135,7 @@ oxygen
 p7zip
 pacman-contrib
 patch
+pax
 peek
 perl-anyevent-i3
 perl-json-xs
@@ -171,6 +173,7 @@ ranger
 reflector
 rmlint
 rofi
+rofimoji
 rsync
 samba
 scrcpy
