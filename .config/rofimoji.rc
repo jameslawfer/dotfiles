@@ -1,0 +1,9 @@
+action = [type]
+files = [logseq, emojis, math]
+skin-tone = ask
+max-recent = 0
+prompt = Symbol Search
+clipboarder = xclip
+keybinding-type = Ctrl+t
+
+# picker files are find in /usr/lib/python3.10/site-packages/picker/data
