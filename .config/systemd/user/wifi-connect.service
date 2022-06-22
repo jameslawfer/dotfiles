@@ -1,0 +1,13 @@
+[Unit]
+Description=WiFi Connected Service
+Requires=network-online.target
+After=network-online.target
+
+[Service]
+User=james
+Type=oneshot
+ExecStart=/home/james/.local/bin/refresh_i3status.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
