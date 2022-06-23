@@ -393,6 +393,7 @@ for_window [title="Blender Render" class="Blender"] floating enable
 for_window [class="Spek"] floating enable
 for_window [class="Matplotlib"] floating enable
 for_window [title="Figure*" class="GNU Octave"] floating enable
+for_window [class="ksnip"] floating enable
 # feh -.Zd --start-at %f
 
 # Start polybar
