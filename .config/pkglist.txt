@@ -19,6 +19,7 @@ breeze-gtk
 byobu
 calligra
 caprine
+clojure
 cups
 cups-pdf
 discord
@@ -45,10 +46,12 @@ firefox
 fish
 flex
 gcc
+gendesk
 gifski
 git
 gnu-netcat
 gnuchess
+go
 google-chrome
 gptfdisk
 groff
@@ -63,6 +66,8 @@ intel-ucode
 iperf3
 iptraf-ng
 iwd
+java-environment-common
+jdk-openjdk
 jq
 jre8-openjdk
 kactivitymanagerd
@@ -107,6 +112,7 @@ ly
 m4
 maim
 make
+mapmap
 masterpdfeditor
 metasploit
 milou
@@ -167,7 +173,7 @@ python-notify2
 python-poetry
 qalculate-gtk
 qbittorrent
-qemu
+qemu-desktop
 qgis
 ranger
 reflector
@@ -180,12 +186,12 @@ scrcpy
 sddm-kcm
 slack-desktop
 speedtest-cli
-spek-git
 steam
 strawberry
 sudo
 systemsettings
 tealdeer
+teams
 telegram-desktop
 texinfo
 texlive-bibtexextra
@@ -201,7 +207,7 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 ticker
-tidal-hifi
+tidal-hifi-bin
 tlp
 tmux
 traceroute
@@ -211,6 +217,7 @@ ttf-opensans
 unrar
 unzip
 usbutils
+v4l2ucp
 vim
 vim-plug
 vim-youcompleteme-git
