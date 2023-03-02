@@ -94,7 +94,7 @@ volume master {
 }
 
 path_exists VPN {
-    path = "/proc/sys/net/ipv4/conf/tun0"
+    path = "/proc/sys/net/ipv4/conf/nordtun"
 #    format = "VPN:Up"
 #    format_down = "VPN:Disconnected"
     format = " Connected"
