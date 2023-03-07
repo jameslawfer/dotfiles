@@ -21,7 +21,6 @@ btop
 byobu
 calligra
 caprine
-clojure
 cups
 cups-pdf
 discord
@@ -65,8 +64,6 @@ intel-ucode
 iperf3
 iptraf-ng
 iwd
-java-environment-common
-jdk-openjdk
 jq
 jre8-openjdk
 kactivitymanagerd

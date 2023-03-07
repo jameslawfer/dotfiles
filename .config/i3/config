@@ -283,7 +283,7 @@ bar {
         font pango:JetBrainsMono Nerd Font, FontAwesome 12
 
         colors {
-            background #00000088
+            background #00000000
             statusline #ffffff
             separator #53e1e6
 
@@ -308,7 +308,7 @@ bar {
 
 # Kill the Plasma desktop view
 exec --no-startup-id wmctrl -c Plasma
-for_window [title="Desktop — Plasma"] kill; floating enable; border none
+for_window [title="Desktop @ QRect.*"] kill; floating enable; border none
 # Maybe also try to avoid tiling popups and dropdown windows
 for_window [class="yakuake"]    floating enable; border none
 for_window [class="plasmashell"] floating enable;
