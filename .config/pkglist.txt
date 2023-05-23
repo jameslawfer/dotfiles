@@ -72,11 +72,13 @@ kde-gtk-config
 kdecoration
 kdegraphics-thumbnailers
 kdeplasma-addons
+keep-presence
 kgamma5
 khotkeys
 kibom-git
 kicad
 kinfocenter
+kio-gdrive
 kitty
 kmenuedit
 kmines
@@ -185,6 +187,7 @@ scrcpy
 sddm-kcm
 slack-desktop
 songrec
+sox
 speedtest-cli
 spek
 steam

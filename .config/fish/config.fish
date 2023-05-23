@@ -34,4 +34,5 @@ alias charge='upower --dump'
 alias ncdu='ncdu --exclude /home/james/CATNAS'
 
 # Alias for starting keep-presence
-alias kp='cd ~/Source/keep-presence/ && poetry run python3 src/keep-presence.py -s 5 -m both -p 5'
+#alias kp='cd ~/Source/keep-presence/ && poetry run python3 src/keep-presence.py -s 5 -m both -p 5'
+alias kp='keep-presence.py -s 5 -m both -p 5'
