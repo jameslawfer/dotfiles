@@ -75,7 +75,6 @@ kdeplasma-addons
 keep-presence
 kgamma5
 khotkeys
-kibom-git
 kicad
 kinfocenter
 kio-gdrive
@@ -163,12 +162,14 @@ plex-media-player
 polkit-kde-agent
 polybar
 polychromatic
+polymc
 postgresql
 powerdevil
 powertop
 prettier
 pulseaudio-bluetooth
 python-black
+python-kibom
 python-libevdev
 python-notify2
 python-poetry
@@ -181,6 +182,7 @@ ranger
 reflector
 rmlint
 rofi
+rofi-bluetooth-git
 rofimoji
 rsync
 samba
@@ -197,6 +199,7 @@ sudo
 systemsettings
 tealdeer
 teams
+teams-for-linux
 teamviewer
 telegram-desktop
 texinfo
