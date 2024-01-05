@@ -73,7 +73,7 @@ kdecoration
 kdegraphics-thumbnailers
 kdeplasma-addons
 keep-presence
-kgamma5
+kgamma
 khotkeys
 kicad
 kinfocenter
@@ -115,7 +115,6 @@ metasploit
 milou
 minecraft-launcher
 minicom
-montserrat-otf
 mtr
 multimc-bin
 nano
@@ -137,6 +136,7 @@ octave-statistics
 okular
 openrazer-daemon
 openssh
+otf-montserrat
 oxygen
 p7zip
 pacman-contrib
@@ -198,7 +198,6 @@ strawberry
 sudo
 systemsettings
 tealdeer
-teams
 teams-for-linux
 teamviewer
 telegram-desktop
