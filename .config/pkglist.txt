@@ -4,6 +4,7 @@ android-apktool
 android-tools
 android-udev
 ark
+arp-scan
 asar
 autoconf
 automake
@@ -22,6 +23,7 @@ btop
 byobu
 calligra
 caprine
+cloudflared
 cups
 cups-pdf
 discord
