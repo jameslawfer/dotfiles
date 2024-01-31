@@ -97,6 +97,19 @@ alias ll='ls -l'
 alias la='ls -la'
 alias lr='ls -lAt | head'
 
+# Alias for tracking dotfiles with git easily (see https://news.ycombinator.com/item?id=11070797)
+alias gitdot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# alias for cding into symlink directories, to go to the real folder
+alias cds='cd -P'
+
+# alias for finding a string in the current directory including subdirectories
+alias fsic='find . -name'
+
+alias getwanip='wget -qO- http://ipecho.net/plain ; echo'
+
+alias fif='grep -iRl'
+
 # copy with rsync/progress alias
 alias rp='rsync -ha --progress'
 
@@ -111,6 +124,16 @@ alias charge='upower --dump'
 
 # Alias for excluding network storage from ncdu
 alias ncdu='ncdu --exclude /home/james/CATNAS'
+
+# Alias for starting keep-presence
+#alias kp='cd ~/Source/keep-presence/ && poetry run python3 src/keep-presence.py -s 5 -m both -p 5'
+alias kp='keep-presence.py -s 5 -m both -p 5'
+
+# Aliases for starting barrier
+alias barr-01='barrierc --restart --daemon 10.8.99.157' # for home with work laptop as server
+
+# Alias to not combine AUR and pacman upgrades with Yay
+alias yay='yay --combinedupgrade=false'
 
 # Set shell options: http://zsh.sourceforge.net/Doc/Release/Options.html.
 setopt glob_dots     # no special treatment for file names with a leading dot
