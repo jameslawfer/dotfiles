@@ -42,6 +42,7 @@ ebtables
 edk2-ovmf
 evemu
 evtest
+f3-git
 fakeroot
 feh
 ffmpegthumbs
@@ -50,6 +51,7 @@ fish
 flatpak
 flex
 gcc
+gendesk
 gifski
 git
 gnu-netcat
@@ -303,6 +305,6 @@ xournalpp
 yakuake
 yarn
 yay
-youtube-dl
+yt-dlp
 zoom
 zsh
