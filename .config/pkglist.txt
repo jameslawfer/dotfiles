@@ -26,6 +26,7 @@ caprine
 cloudflared
 cups
 cups-pdf
+dhcping
 discord
 discover
 dkms
@@ -50,8 +51,8 @@ firefox
 fish
 flatpak
 flex
+fuse2
 gcc
-gendesk
 gifski
 git
 gnu-netcat
@@ -129,6 +130,7 @@ net-tools
 nethogs
 networkd-dispatcher
 nfs-utils
+ngrep
 nicotine+
 nmap
 nordvpn-bin
