@@ -194,7 +194,6 @@ rsync
 samba
 scrcpy
 sddm-kcm
-slack-desktop
 songrec
 sox
 speedtest-cli
@@ -246,6 +245,7 @@ wget
 whatsapp-nativefier
 which
 whois
+wireguard-tools
 wireshark-qt
 wmctrl
 wps-office

@@ -69,6 +69,7 @@ set autoindent
 
 "Show a big line under the cursor
 set cursorline
+"
 "Highlight matching parenthesis when closing
 set showmatch
 
