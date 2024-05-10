@@ -18,7 +18,7 @@ do
   VPNTEXT=" $VPN"
   VPNCOLOUR="#FF0000"
 
-  if [ -z $BT ] ; then
+  if [ -z "$BT" ] ; then
       BTTEXT=""
   fi
 
