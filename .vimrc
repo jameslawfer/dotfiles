@@ -42,6 +42,7 @@ Plug 'bluz71/vim-moonfly-colors'
 Plug 'bignimbus/pop-punk.vim'
 Plug 'danilo-augusto/vim-afterglow'
 Plug 'arzg/vim-colors-xcode'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 call plug#end()
 
@@ -49,7 +50,9 @@ call plug#end()
 syntax enable
 
 "Set colour scheme
-colorscheme onedark
+"colorscheme onedark
+colorscheme catppuccin_mocha
+set termguicolors
 
 "Enable HYBRID numbering (relative numbering + normal numbers on active line)
 set number relativenumber
@@ -106,9 +109,9 @@ autocmd BufWinEnter *.tcl nnoremap <F10> :w<CR>:!ns '%'<CR>
 set laststatus=2
 set noshowmode
 
-" Setup lightline
+" Setup lightline (used to use molokai theme)
 let g:lightline = {
-            \ 'colorscheme': 'molokai',
+            \ 'colorscheme': 'catppuccin_mocha',
             \ 'active': {
             \ 'left'  : [ [ 'mode', 'paste' ],
             \             [ 'readonly', 'filename', 'modified' ] ],
