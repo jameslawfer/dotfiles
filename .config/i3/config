@@ -298,13 +298,22 @@ bar {
         colors {
             background #00000000
             statusline #ffffff
-            separator #53e1e6
+            separator #74c7ec
 
-            focused_workspace  #53e1e688 #53e1e6 #000000
-            active_workspace   #333333 #8ee693 #000000
-            inactive_workspace #333333 #00000088 #888888
-            urgent_workspace   #e0210b00 #d959ce #ffffff
-            binding_mode       #2f343a #fcba03 #000000
+            focused_workspace  #f5e0dc88 #fab387 #11111b
+            active_workspace   #45475a #a6e3a1 #11111b
+            inactive_workspace #45475a #1e1e2e48 #7f849c
+            urgent_workspace   #f38ba800 #f38ba8 #11111b
+            binding_mode       #89dceb #74c7ec #11111b
+
+# Original color themes
+#            separator #53e1e6
+#
+#            focused_workspace  #53e1e688 #53e1e6 #000000
+#            active_workspace   #333333 #8ee693 #000000
+#            inactive_workspace #333333 #00000088 #888888
+#            urgent_workspace   #e0210b00 #d959ce #ffffff
+#            binding_mode       #2f343a #fcba03 #000000
         }
 
         i3bar_command i3bar --transparency
