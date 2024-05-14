@@ -31,6 +31,18 @@ font pango:DejaVu Sans Mono 12
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
+# Set the Wallpaper
+exec --no-startup-id feh --bg-fill /home/james/Pictures/Wallpapers/WP.jpg
+
+# Start compositor Picom
+exec --no-startup-id picom --config /home/james/.config/picom/picom.conf
+
+# Startup Dropbox (When running in i3 only mode)
+exec --no-startup-id dropbox
+
+# Startup libinput-gestures for 4-finger swipe (When running in i3 only mode)
+exec --no-startup-id libinput-gestures-setup start
+
 # Dunst is a drop in notification handler replacement
 exec --no-startup-id dunst -config ~/.config/dunst/dunstrc
 
@@ -303,10 +315,6 @@ bar {
         position top
 }
 
-# Start dropbox when i3 loads
-# Disabled when running in KDE Plasma
-#exec dropbox
-
 # Kill the Plasma desktop view
 exec --no-startup-id wmctrl -c Plasma
 for_window [title="Desktop @ QRect.*"] kill; floating enable; border none
@@ -322,13 +330,7 @@ for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 for_window [class="dolphin"] floating enable; border none
 
-# Set the Wallpaper
-exec --no-startup-id feh --bg-fill /home/james/Pictures/Wallpapers/WP.jpg
-
-# Start compositor Picom
-exec --no-startup-id picom --config /home/james/.config/picom/picom.conf
-
-### i3-gaps stuff ###
+### i3-gaps Configuration ###
 
 # Necessary for i3-gaps to work properly (pixel can be any value)
 for_window [class="^.*"] border pixel 0
@@ -396,6 +398,3 @@ for_window [class="Matplotlib"] floating enable
 for_window [title="Figure*" class="GNU Octave"] floating enable
 for_window [class="ksnip"] floating enable
 # feh -.Zd --start-at %f
-
-# Start polybar
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
