@@ -297,14 +297,14 @@ bar {
 
         colors {
             background #00000000
-            statusline #ffffff
-            separator #74c7ec
+            statusline #e7ebf9
+            separator #89dceb
 
-            focused_workspace  #f5e0dc88 #fab387 #11111b
+            focused_workspace  #f5e0dc44 #cba6f7 #11111b
             active_workspace   #45475a #a6e3a1 #11111b
             inactive_workspace #45475a #1e1e2e48 #7f849c
-            urgent_workspace   #f38ba800 #f38ba8 #11111b
-            binding_mode       #89dceb #74c7ec #11111b
+            urgent_workspace   #f9e2af #e64553 #11111b
+            binding_mode       #df8e1d #1e1e2e #cdd6f4
 
 # Original color themes
 #            separator #53e1e6
