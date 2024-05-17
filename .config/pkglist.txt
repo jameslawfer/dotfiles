@@ -19,6 +19,7 @@ bluedevil
 bluez-utils
 breeze
 breeze-gtk
+brightnessctl
 btop
 byobu
 calligra
@@ -102,6 +103,7 @@ libksysguard
 libmicrodns
 libtool
 libxcrypt-compat
+lightly-kf6-git
 linux
 linux-firmware
 linux-headers
@@ -132,6 +134,7 @@ nfs-utils
 ngrep
 nicotine+
 nmap
+nomacs
 nordvpn-bin
 noto-fonts-cjk
 noto-fonts-emoji
@@ -164,6 +167,7 @@ plasma-thunderbolt
 plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
+playerctl
 plex-media-player
 polkit-kde-agent
 polybar
@@ -184,6 +188,7 @@ qalculate-gtk
 qbittorrent
 qemu-desktop
 qgis
+qt6ct
 ranger
 reflector
 rmlint
