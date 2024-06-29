@@ -418,3 +418,4 @@ for_window [class="ksnip"] floating enable
 # feh -.Zd --start-at %f
 # for nomacs image viewer
 for_window [class="Image Lounge"] floating enable
+for_window [class="Gifview"] floating enable
