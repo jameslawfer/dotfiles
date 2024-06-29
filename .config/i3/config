@@ -70,6 +70,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl s 2%-
 floating_modifier $mod
 
 # start a terminal
+bindsym grave exec tdrop -a -m -h 35% -w 94% -x 3% -t kitty --class=dropdownkitty
 bindsym $mod+grave exec i3-sensible-terminal
 bindsym $mod+Mod1+grave exec konsole --profile "Standard Fish"
 
@@ -419,3 +420,4 @@ for_window [class="ksnip"] floating enable
 # for nomacs image viewer
 for_window [class="Image Lounge"] floating enable
 for_window [class="Gifview"] floating enable
+for_window [class="dropdownkitty"] floating enable

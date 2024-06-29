@@ -54,10 +54,12 @@ flatpak
 flex
 fuse2
 gcc
+gifsicle
 gifski
 git
 gnu-netcat
 gnuchess
+go
 google-chrome
 gptfdisk
 groff
@@ -69,6 +71,7 @@ inetutils
 intel-ucode
 iperf3
 iptraf-ng
+irssi
 iwd
 jq
 jre8-openjdk
@@ -121,6 +124,7 @@ metasploit
 milou
 minecraft-launcher
 minicom
+moreutils
 mtr
 multimc-bin
 nano
@@ -207,6 +211,7 @@ steam
 strawberry
 sudo
 systemsettings
+tdrop-git
 tealdeer
 teams-for-linux
 teamviewer
