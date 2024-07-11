@@ -154,11 +154,15 @@ oxygen
 p7zip
 pacman-contrib
 patch
+pavucontrol
 pax
 peek
 perl-anyevent-i3
 perl-json-xs
 picom
+pipewire-audio
+pipewire-pulse
+pipewire-zeroconf
 pkgconf
 pkgfile
 plasma-browser-integration
@@ -182,7 +186,6 @@ postgresql
 powerdevil
 powertop
 prettier
-pulseaudio-bluetooth
 python-black
 python-kibom
 python-libevdev
@@ -230,6 +233,7 @@ texlive-music
 texlive-pictures
 texlive-pstricks
 texlive-publishers
+thermald
 ticker
 tidal-dl
 tidal-hifi-bin
@@ -257,6 +261,7 @@ whatsapp-nativefier
 which
 whois
 wireguard-tools
+wireplumber
 wireshark-qt
 wmctrl
 wps-office
