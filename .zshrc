@@ -130,7 +130,7 @@ alias ncdu='ncdu --exclude /home/james/CATNAS'
 alias kp='keep-presence.py -s 5 -m both -p 5'
 
 # Aliases for starting barrier
-alias barr-01='barrierc --restart --daemon 10.8.99.157' # for home with work laptop as server
+alias barr-01='barrierc --restart --daemon 10.8.99.21' # for home with work laptop as server
 
 # Alias to not combine AUR and pacman upgrades with Yay
 alias yay='yay --combinedupgrade=false'
