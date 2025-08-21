@@ -2,6 +2,7 @@
 
 Tracking method outlined https://news.ycombinator.com/item?id=11070797
 (https://wiki.archlinux.org/index.php/Dotfiles#Tracking_dotfiles_directly_with_Git)
+https://www.atlassian.com/git/tutorials/dotfiles
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 git init --bare $HOME/.myconf
