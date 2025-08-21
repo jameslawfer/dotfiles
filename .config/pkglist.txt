@@ -1,3 +1,4 @@
+7zip
 acpi
 alsa-utils
 android-apktool
@@ -10,12 +11,12 @@ autoconf
 automake
 barrier
 base
+base-devel
 betterlockscreen
 bind
 binutils
 bison
 bitwig-studio
-blender
 bluedevil
 bluez-utils
 breeze
@@ -24,7 +25,6 @@ brightnessctl
 btop
 byobu
 calligra
-caprine
 cloudflared
 cups
 cups-pdf
@@ -53,6 +53,7 @@ firefox
 fish
 flatpak
 flex
+floorp-bin
 fuse2
 gcc
 gifsicle
@@ -64,6 +65,8 @@ go
 google-chrome
 gptfdisk
 groff
+gummy
+hexchat
 htop
 i3-wm
 i3blocks
@@ -71,6 +74,7 @@ i3status
 inetutils
 intel-ucode
 iperf3
+ipmitool
 iptraf-ng
 irssi
 iwd
@@ -97,6 +101,7 @@ kscreen
 kscreenlocker
 ksnip
 ksshaskpass
+kvantum
 kwallet-pam
 kwayland-integration
 kwin
@@ -144,14 +149,11 @@ nordvpn-bin
 noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
-octave
-octave-statistics
 okular
 openrazer-daemon
 openssh
 otf-montserrat
 oxygen
-p7zip
 pacman-contrib
 patch
 pavucontrol
@@ -179,7 +181,6 @@ plasma-workspace-wallpapers
 playerctl
 plex-media-player
 polkit-kde-agent
-polybar
 polychromatic
 polymc
 postgresql
@@ -190,6 +191,7 @@ python-black
 python-kibom
 python-libevdev
 python-notify2
+python-pip
 python-poetry
 python-pyusb
 qalculate-gtk
@@ -199,6 +201,7 @@ qgis
 qt6ct
 ranger
 reflector
+revanced-cli-bin
 rmlint
 rofi
 rofi-bluetooth-git
@@ -214,12 +217,12 @@ spek
 steam
 strawberry
 sudo
+systemd-resolvconf
 systemsettings
 tdrop-git
 tealdeer
 teams-for-linux
 teamviewer
-telegram-desktop
 texinfo
 texlive-basic
 texlive-bibtexextra
@@ -235,6 +238,7 @@ texlive-pstricks
 texlive-publishers
 thermald
 ticker
+ticktick
 tidal-dl
 tidal-hifi-bin
 tlp
@@ -254,6 +258,7 @@ virt-manager
 virt-viewer
 visual-studio-code-bin
 vlc
+vlc-plugin-ffmpeg
 vnstat
 vsftpd
 wget
@@ -323,6 +328,7 @@ xournalpp
 yakuake
 yarn
 yay
+yaycache
 yt-dlp
 zoom
 zsh

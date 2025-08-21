@@ -31,6 +31,7 @@ Plug 'lervag/vimtex'
 " Language/Syntax Packs
 Plug 'sheerun/vim-polyglot'
 Plug 'psf/black', { 'branch': 'stable' }
+Plug 'rust-lang/rust.vim'
 " Directory Tree
 Plug 'preservim/nerdtree'
 " Git Tools
@@ -48,6 +49,8 @@ call plug#end()
 
 "Enable syntax highlighting
 syntax enable
+
+filetype plugin indent on
 
 "Set colour scheme
 "colorscheme onedark
