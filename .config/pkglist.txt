@@ -23,7 +23,6 @@ breeze
 breeze-gtk
 brightnessctl
 btop
-byobu
 calligra
 cloudflared
 cups

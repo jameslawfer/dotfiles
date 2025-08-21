@@ -1,3 +1,6 @@
+[Animation]
+UseWMAssist=false
+
 [Appearance]
 Skin=materia-dark
 SkinInstalledWithKns=true
