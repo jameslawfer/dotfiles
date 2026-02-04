@@ -319,7 +319,7 @@ bindsym $mod+r mode "RESIZE"
 # finds out, if available)
 bar {
         #font pango:FiraCode Nerd Font Mono, FontAwesome 12
-        font pango:JetBrainsMono Nerd Font, FontAwesome 12
+        font pango:JetBrainsMono Nerd Font, FontAwesome 10
 
         colors {
             background #00000000
