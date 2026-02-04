@@ -48,13 +48,14 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 call plug#end()
 
 "Enable syntax highlighting
-syntax enable
+"syntax enable
 
 filetype plugin indent on
 
 "Set colour scheme
 "colorscheme onedark
-colorscheme catppuccin_mocha
+"colorscheme catppuccin_mocha
+colorscheme industry
 set termguicolors
 
 "Enable HYBRID numbering (relative numbering + normal numbers on active line)
@@ -114,7 +115,7 @@ set noshowmode
 
 " Setup lightline (used to use molokai theme)
 let g:lightline = {
-            \ 'colorscheme': 'catppuccin_mocha',
+            \ 'colorscheme': 'powerline',
             \ 'active': {
             \ 'left'  : [ [ 'mode', 'paste' ],
             \             [ 'readonly', 'filename', 'modified' ] ],

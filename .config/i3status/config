@@ -19,7 +19,7 @@ order += "wireless _first_"
 order += "ethernet _first_"
 order += "battery all"
 order += "disk /"
-order += "disk /home"
+order += "disk /mnt/usb"
 order += "load"
 order += "memory"
 order += "volume master"
@@ -61,9 +61,9 @@ disk "/" {
         threshold_type = percentage_avail
 }
 
-disk "/home" {
-        format = " /home:%avail"
-        format_below_threshold = "<|DISK /home:%avail|>"
+disk "/mnt/usb" {
+        format = " /mnt/usb:%avail"
+        format_below_threshold = "<|DISK /mnt/usb:%avail|>"
         prefix_type = custom
         low_threshold = 15
         threshold_type = percentage_avail
