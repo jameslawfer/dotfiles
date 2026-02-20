@@ -72,6 +72,7 @@ htop
 i3-wm
 i3blocks
 i3status
+iio-sensor-proxy
 inetutils
 intel-ucode
 iperf3
@@ -162,6 +163,7 @@ peek
 perl-anyevent-i3
 perl-json-xs
 picom
+pipewire-alsa
 pipewire-audio
 pipewire-pulse
 pipewire-zeroconf
