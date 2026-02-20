@@ -38,8 +38,8 @@ alias ncdu='ncdu --exclude /home/james/CATNAS'
 #alias kp='cd ~/Source/keep-presence/ && poetry run python3 src/keep-presence.py -s 5 -m both -p 5'
 alias kp='keep-presence.py -s 5 -m both -p 5'
 
-# Aliases for starting barrier
-alias barr-01='barrierc --restart --daemon 10.42.20.10' # for home with work laptop as server
+# Aliases for starting software KVM (deskflow, synergy, barrier, input-leap)
+alias kvm='deskflow-core client &'
 
 # Alias to not combine AUR and pacman upgrades with Yay
 alias yay='yay --combinedupgrade=false'
