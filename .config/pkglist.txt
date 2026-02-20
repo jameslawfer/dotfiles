@@ -1,5 +1,5 @@
 7zip
-acpi
+acpid
 alsa-utils
 android-apktool
 android-tools
@@ -9,7 +9,6 @@ arp-scan
 asar
 autoconf
 automake
-barrier
 base
 base-devel
 betterlockscreen
@@ -27,6 +26,7 @@ calligra
 cloudflared
 cups
 cups-pdf
+deskflow
 dhcping
 discord
 discover
@@ -46,6 +46,7 @@ evemu
 evtest
 f3-git
 fakeroot
+fd
 feh
 ffmpegthumbs
 firefox
@@ -54,6 +55,7 @@ flatpak
 flex
 floorp-bin
 fuse2
+fzf
 gcc
 gifsicle
 gifski
@@ -135,7 +137,6 @@ multimc-bin
 nano
 ncdu
 ncftp
-nerd-fonts-git
 net-tools
 nethogs
 networkd-dispatcher
@@ -191,6 +192,7 @@ python-kibom
 python-libevdev
 python-notify2
 python-pip
+python-pipx
 python-poetry
 python-pyusb
 qalculate-gtk
@@ -200,6 +202,8 @@ qgis
 qt6ct
 ranger
 reflector
+repo
+resvg
 revanced-cli-bin
 rmlint
 rofi
@@ -245,6 +249,7 @@ tmux
 traceroute
 trash-cli
 tree
+ttf-jetbrains-mono-nerd
 ttf-opensans
 unrar
 unzip
@@ -328,6 +333,8 @@ yakuake
 yarn
 yay
 yaycache
-yt-dlp
+yazi
+yt-dlp-ejs
 zoom
+zoxide
 zsh
