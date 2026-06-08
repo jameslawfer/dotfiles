@@ -40,7 +40,6 @@ dolphin-plugins
 drkonqi
 dropbox
 dunst
-ebtables
 edk2-ovmf
 evemu
 evtest
@@ -181,7 +180,7 @@ plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 playerctl
-plex-media-player
+plex-desktop
 polkit-kde-agent
 polychromatic
 polymc
@@ -201,8 +200,9 @@ qalculate-gtk
 qbittorrent
 qemu-desktop
 qgis
-qt6ct
+qt6ct-kde
 ranger
+rebuild-detector
 reflector
 repo
 resvg
@@ -215,6 +215,9 @@ rsync
 samba
 scrcpy
 sddm-kcm
+simple-mtpfs
+snixembed
+solaar
 songrec
 sox
 speedtest-cli
@@ -229,18 +232,6 @@ tealdeer
 teams-for-linux
 teamviewer
 texinfo
-texlive-basic
-texlive-bibtexextra
-texlive-fontsextra
-texlive-formatsextra
-texlive-games
-texlive-humanities
-texlive-latexextra
-texlive-mathscience
-texlive-music
-texlive-pictures
-texlive-pstricks
-texlive-publishers
 thermald
 ticker
 ticktick
