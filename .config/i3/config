@@ -56,6 +56,9 @@ exec --no-startup-id picom --config /home/james/.config/picom/picom.conf
 # Startup Dropbox (When running in i3 only mode)
 exec --no-startup-id dropbox
 
+# Start snixembed to proxy StatusNotifierItems as XEmbedded systemtray-spec icons (fixes Dropbox tray icon on i3)
+exec --no-startup-id snixembed
+
 # Startup libinput-gestures for 4-finger swipe (When running in i3 only mode)
 exec --no-startup-id libinput-gestures-setup start
 
