@@ -44,5 +44,8 @@ alias kvm='deskflow-core client &'
 # Alias to not combine AUR and pacman upgrades with Yay
 alias yay='yay --combinedupgrade=false'
 
+# use kitty ssh kitten to copy correct terminfo data over when using kitty
+alias ssh='kitty +kitten ssh'
+
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
