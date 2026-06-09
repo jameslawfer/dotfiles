@@ -75,6 +75,7 @@ case "$1" in
                 case "$4" in
                     00000000)
                         export DISPLAY=:0.0
+                        export XAUTHORITY=/run/user/1000/lyxauth
                         logger '2-in-1 screen in Laptop mode'
                         xrandr --output eDP-1 --rotate normal
                         xinput set-prop 10 310 1 0 0 0 1 0 0 0 1
@@ -84,6 +85,7 @@ case "$1" in
                         ;;
                     00000001)
                         export DISPLAY=:0.0
+                        export XAUTHORITY=/run/user/1000/lyxauth
                         logger '2-in-1 screen in Tablet mode'
                         #xrandr --output eDP-1 --rotate inverted
                         #xinput set-prop 10 310 -1 0 1 0 -1 1 0 0 1
