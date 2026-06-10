@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Upgrade
+Operation = Install
+Operation = Remove
+Type = Package
+Target = *
+
+[Action]
+Description = Cleaning yay cache with yaycache (-rk2 -ruk0)...
+When = PostTransaction
+Exec = /bin/sh -c '/usr/bin/yaycache -rk2 && /usr/bin/yaycache -ruk0'
