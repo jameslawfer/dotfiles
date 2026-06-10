@@ -45,7 +45,9 @@ alias kvm='deskflow-core client &'
 alias yay='yay --combinedupgrade=false'
 
 # use kitty ssh kitten to copy correct terminfo data over when using kitty
-alias ssh='kitty +kitten ssh'
+if [[ "$TERM" == *"kitty" ]]; then
+    alias ssh='kitty +kitten ssh'
+fi
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
