@@ -31,11 +31,12 @@ font pango:DejaVu Sans Mono 12
 # screen before suspend. Use loginctl lock-session to lock your screen.
 #exec --no-startup-id xss-lock --transfer-sleep-lock -- "betterlockscreen -l dim"
 
-set $mode_power <||Power Menu||>   [L] Lock   [E] Logout   [S] Suspend   [R] Reboot   [Shift+S] Shutdown
+set $mode_power <||Power Menu||>   [L] Lock   [E] Logout   [S] Suspend   [H] Hibernate [R] Reboot   [Shift+S] Shutdown
 mode "$mode_power" {
     bindsym l exec --no-startup-id betterlockscreen -l dim, mode "default"
     bindsym e exec --no-startup-id i3-msg exit, mode "default"
     bindsym s exec --no-startup-id systemctl suspend, mode "default"
+    bindsym h exec --no-startup-id systemctl hibernate, mode "default"
     bindsym r exec --no-startup-id systemctl reboot, mode "default"
     bindsym Shift+s exec --no-startup-id systemctl poweroff -i, mode "default"
 
