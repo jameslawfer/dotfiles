@@ -1,0 +1,3 @@
+# Rule to reload hid_apple (patched dkms) kernel module upon Magic Keyboard connection due to inability to load correct initramfs symlinked config (see journalctl -b | grep -i hid_apple)
+#ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
+ACTION=="add", KERNEL=="event*", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"

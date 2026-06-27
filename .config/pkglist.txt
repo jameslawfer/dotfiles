@@ -67,6 +67,7 @@ gptfdisk
 groff
 gummy
 hexchat
+hid-apple-patched-dkms-git
 htop
 i3-wm
 i3blocks
@@ -111,12 +112,14 @@ libinput-gestures
 libkscreen
 libksysguard
 libmicrodns
+libtiff5
 libtool
 libxcrypt-compat
 lightly-kf6-git
 linux
 linux-firmware
 linux-headers
+logiops
 logseq-desktop
 lsd
 lsof
@@ -160,6 +163,7 @@ pavucontrol
 pax
 peek
 perl-anyevent-i3
+perl-image-exiftool
 perl-json-xs
 picom
 pipewire-alsa
@@ -189,6 +193,7 @@ powerdevil
 powertop
 prettier
 python-black
+python-kasa
 python-kibom
 python-libevdev
 python-notify2
@@ -217,7 +222,6 @@ scrcpy
 sddm-kcm
 simple-mtpfs
 snixembed
-solaar
 songrec
 sox
 speedtest-cli
@@ -256,6 +260,7 @@ virt-viewer
 visual-studio-code-bin
 vlc
 vlc-plugin-ffmpeg
+vlc-plugins-extra
 vnstat
 vsftpd
 wget
