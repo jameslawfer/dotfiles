@@ -1,0 +1,39 @@
+# Rule to reload logid.service on Logitech MX Anywhere 3S connection
+#
+# see https://github.com/PixlOne/logiops/issues/156
+#
+# > sudo udevadm monitor --environment --udev
+# UDEV  [618.118916] add      /devices/virtual/misc/uhid/0005:046D:B037.000F/input/input53 (input)
+# ACTION=add
+# DEVPATH=/devices/virtual/misc/uhid/0005:046D:B037.000F/input/input53
+# SUBSYSTEM=input
+# PRODUCT=5/46d/b037/3
+# NAME="Logitech MX Anywhere 3S"
+# ...
+#
+# > sudo udevadm info --attribute-walk --path=/devices/virtual/misc/uhid/0005:046D:B037.000F/input/input53
+# looking at device '/devices/virtual/misc/uhid/0005:046D:B037.000F/input/input53':
+#  KERNEL=="input53"
+#  SUBSYSTEM=="input"
+#  DRIVER==""
+#  ATTR{capabilities/abs}=="0"
+#  ATTR{capabilities/ev}=="17"
+#  ATTR{capabilities/ff}=="0"
+#  ATTR{capabilities/key}=="ffff0000 0 0 0 0"
+#  ATTR{capabilities/led}=="0"
+#  ATTR{capabilities/msc}=="10"
+#  ATTR{capabilities/rel}=="1943"
+#  ATTR{capabilities/snd}=="0"
+#  ATTR{capabilities/sw}=="0"
+#  ATTR{id/bustype}=="0005"
+#  ATTR{id/product}=="b037"
+#  ATTR{id/vendor}=="046d"
+#  ATTR{id/version}=="0003"
+#  ATTR{inhibited}=="0"
+#  ATTR{name}=="Logitech MX Anywhere 3S"
+#  ...
+#
+#
+#
+ACTION=="add", SUBSYSTEM=="input", ATTR{id/vendor}=="046d", ATTR{id/product}=="b037", RUN+="/usr/bin/systemctl --no-block restart logid.service"
+# ACTION=="add", SUBSYSTEM=="input", ATTR{name}=="Logitech MX Anywhere 3S", RUN+="/usr/bin/systemctl --no-block restart logid.service"
