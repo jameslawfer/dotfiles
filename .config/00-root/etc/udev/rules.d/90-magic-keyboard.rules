@@ -1,3 +1,42 @@
 # Rule to reload hid_apple (patched dkms) kernel module upon Magic Keyboard connection due to inability to load correct initramfs symlinked config (see journalctl -b | grep -i hid_apple)
-#ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
-ACTION=="add", KERNEL=="event*", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
+#
+# > sudo udevadm monitor --environment --udev
+# ...
+# DEVPATH=/devices/virtual/misc/uhid/0005:004C:029C.000F/input/input464/event26
+# ...
+#
+# > sudo udevadm info --attribute-walk --path=/devices/virtual/misc/uhid/0005:004C:029C.000F/input/input464/event26
+# looking at device '/devices/virtual/misc/uhid/0005:004C:029C.000F/input/input464/event26':
+#     KERNEL=="event26"
+#     SUBSYSTEM=="input"
+#     DRIVER==""
+#     ATTR{power/control}=="auto"
+#     ATTR{power/runtime_active_time}=="0"
+#     ATTR{power/runtime_status}=="unsupported"
+#     ATTR{power/runtime_suspended_time}=="0"
+#
+#   looking at parent device '/devices/virtual/misc/uhid/0005:004C:029C.000F/input/input464':
+#     KERNELS=="input464"
+#     SUBSYSTEMS=="input"
+#     DRIVERS==""
+#     ATTRS{capabilities/abs}=="0"
+#     ATTRS{capabilities/ev}=="120013"
+#     ATTRS{capabilities/ff}=="0"
+#     ATTRS{capabilities/key}=="10000 0 0 1 7b00001000 3801000000 e1aeffdf01cfffff fffffffffffffffe"
+#     ATTRS{capabilities/led}=="1f"
+#     ATTRS{capabilities/msc}=="10"
+#     ATTRS{capabilities/rel}=="0"
+#     ATTRS{capabilities/snd}=="0"
+#     ATTRS{capabilities/sw}=="0"
+#     ATTRS{id/bustype}=="0005"
+#     ATTRS{id/product}=="029c"
+#     ATTRS{id/vendor}=="004c"
+#     ATTRS{id/version}=="0147"
+#     ATTRS{inhibited}=="0"
+#     ATTRS{name}=="Magic Keyboard"
+# ...
+#
+# ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
+# ACTION=="add", KERNEL=="event*", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
+# ACTION=="add", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", DRIVERS=="apple", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
+ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTRS{id/product}=="029c", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
