@@ -15,15 +15,12 @@ betterlockscreen
 bind
 binutils
 bison
-bitwig-studio
 bluedevil
 bluez-utils
 breeze
 breeze-gtk
 brightnessctl
 btop
-calligra
-cloudflared
 cups
 cups-pdf
 deskflow
@@ -34,7 +31,6 @@ dkms
 dmenu
 dmidecode
 dnsmasq
-docker
 dolphin
 dolphin-plugins
 drkonqi
@@ -48,11 +44,9 @@ fakeroot
 fd
 feh
 ffmpegthumbs
-firefox
 fish
 flatpak
 flex
-floorp-bin
 fuse2
 fzf
 gcc
@@ -66,7 +60,6 @@ google-chrome
 gptfdisk
 groff
 gummy
-hexchat
 hid-apple-patched-dkms-git
 htop
 i3-wm
@@ -135,6 +128,7 @@ milou
 minecraft-launcher
 minicom
 moreutils
+mpv
 mtr
 multimc-bin
 nano
@@ -158,6 +152,7 @@ openssh
 otf-montserrat
 oxygen
 pacman-contrib
+pangolin-bin
 patch
 pavucontrol
 pax
@@ -202,7 +197,6 @@ python-pipx
 python-poetry
 python-pyusb
 qalculate-gtk
-qbittorrent
 qemu-desktop
 qgis
 qt6ct-kde
@@ -231,6 +225,7 @@ strawberry
 sudo
 systemd-resolvconf
 systemsettings
+tcpdump
 tdrop-git
 tealdeer
 teams-for-linux
@@ -258,11 +253,13 @@ vim-youcompleteme-git
 virt-manager
 virt-viewer
 visual-studio-code-bin
+vivaldi
 vlc
 vlc-plugin-ffmpeg
 vlc-plugins-extra
 vnstat
 vsftpd
+waterfox-bin
 wget
 whatsapp-nativefier
 which
@@ -271,6 +268,7 @@ wireguard-tools
 wireplumber
 wireshark-qt
 wmctrl
+woeusb-ng
 wps-office
 xarchiver
 xclip
@@ -333,6 +331,5 @@ yay
 yaycache
 yazi
 yt-dlp-ejs
-zoom
 zoxide
 zsh
