@@ -3,7 +3,7 @@ pkill dunst
 dunst -config ~/.config/dunst/dunstrc &
 
 notify-send -u critical "Test message: critical test 1"
-notify-send -u normal "Test message: normal test 2"
+notify-send -u normal "Test message: normal test 2 with a URL https://pve.jameslawfer.com"
 notify-send -u low "Test message: low test 3"
 #notify-send -u critical "Test message: critical test 4"
 #notify-send -u normal "Test message: normal test 5"
