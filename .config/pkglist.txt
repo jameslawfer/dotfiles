@@ -56,7 +56,6 @@ git
 gnu-netcat
 gnuchess
 go
-google-chrome
 gptfdisk
 groff
 gummy
@@ -142,7 +141,6 @@ ngrep
 nicotine+
 nmap
 nomacs
-nordvpn-bin
 noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
