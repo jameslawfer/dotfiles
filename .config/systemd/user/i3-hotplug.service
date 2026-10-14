@@ -1,0 +1,10 @@
+[Unit]
+Description=i3 Display Hotplug Handler
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/james/.local/bin/i3_disp_hotplug.sh
+
+[Install]
+WantedBy=graphical-session.target
