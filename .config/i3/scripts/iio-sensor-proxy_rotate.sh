@@ -1,8 +1,10 @@
-#!/bin/bash
-# Sourced from https://bbs.archlinux.org/viewtopic.php?id=243005
-# Minor modifications to remove Wacom options
+#!/usr/bin/env bash
+# Built around source from https://bbs.archlinux.org/viewtopic.php?id=243005
 
-SCREEN="eDP-1"
+SCREEN=$(xrandr | grep " primary " | awk '{ print $1 }')
+if [ -z "$SCREEN" ]; then # set a fallback
+    SCREEN=$(xrandr | grep " connected " | head -n 1 | awk '{ print $1 }')
+fi
 XINPUT="Wacom HID 498E Finger"
 
 #uses the values output by monitor-sensor to call the rotate function

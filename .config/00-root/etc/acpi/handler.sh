@@ -1,5 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Default acpi script that takes an entry for all actions
+
+export DISPLAY=$(strings "/proc/$(pidof Xorg)/environ" | grep "^DISPLAY=" | cut -d= -f2-)
+export XAUTHORITY=$(strings "/proc/$(pidof Xorg)/environ" | grep "^XAUTHORITY=" | cut -d= -f2-)
 
 case "$1" in
     button/power)
@@ -74,8 +77,6 @@ case "$1" in
             TBLT)
                 case "$4" in
                     00000000)
-                        export DISPLAY=:0.0
-                        export XAUTHORITY=/run/user/1000/lyxauth
                         logger '2-in-1 screen in Laptop mode'
                         xrandr --output eDP-1 --rotate normal
                         xinput set-prop 10 310 1 0 0 0 1 0 0 0 1
@@ -84,8 +85,6 @@ case "$1" in
                         xset +dpms
                         ;;
                     00000001)
-                        export DISPLAY=:0.0
-                        export XAUTHORITY=/run/user/1000/lyxauth
                         logger '2-in-1 screen in Tablet mode'
                         #xrandr --output eDP-1 --rotate inverted
                         #xinput set-prop 10 310 -1 0 1 0 -1 1 0 0 1
