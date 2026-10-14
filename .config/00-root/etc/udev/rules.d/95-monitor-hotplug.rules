@@ -1,2 +1,3 @@
 # Rule for executing commands when external screen is plugged in
-KERNEL=="card0", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/james/.Xauthority", RUN+="/home/james/.local/bin/reset_feh-bg.sh"
+# XAUTHORITY and DISPLAY set inside script
+KERNEL=="card*", SUBSYSTEM=="drm", RUN+="/home/james/.local/bin/i3_disp_hotplug.sh"
