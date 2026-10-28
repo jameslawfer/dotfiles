@@ -1,0 +1,12 @@
+// Custom key type, loaded via the stock XKB option "custom:types"
+// (xkeyboard-config's evdev rules map that option to "+custom").
+default xkb_types "custom" {
+    type "THREE_LEVEL_ALT" {
+        modifiers= Shift+Alt;
+        map[Shift]= Level2;
+        map[Alt]= Level3;
+        level_name[Level1]= "Base";
+        level_name[Level2]= "Shift";
+        level_name[Level3]= "Alt";
+    };
+};

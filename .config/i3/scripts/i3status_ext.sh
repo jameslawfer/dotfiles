@@ -22,7 +22,7 @@ do
       BTTEXT=""
   fi
 
-  if [ $KBD != 'US' ] ; then
+  if [ $KBD != 'US-G' ] ; then
     KBDCOLOUR="#00FFFB"
   fi
 

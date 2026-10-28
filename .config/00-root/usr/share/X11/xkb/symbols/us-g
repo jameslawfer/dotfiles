@@ -1,0 +1,16 @@
+// "us-g" = stock us(basic) with a bunch of minor changes to drop literal '`' (grave) characters instead of triggering i3's handling
+//   <TLDE>  Alt+` is redirected to <I248> (Alt modifier is cleared, so user applications see a plain F21)
+//   <I248>  now produces F21 as confirmed by > xev -event keyboard, which I then hackily send to .XCompose to produce the backtick
+// Needs the THREE_LEVEL_ALT type from ../types/custom (enable with option custom:types).
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us(basic)"
+
+    key <TLDE> {
+        type[Group1]= "THREE_LEVEL_ALT",
+        symbols[Group1]= [ grave, asciitilde ],
+        actions[Group1]= [ NoAction(), NoAction(), RedirectKey(keycode=<I248>, clearmods=Alt) ]
+    };
+
+    key <I248> { [ F21 ] };
+};
