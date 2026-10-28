@@ -39,4 +39,4 @@
 # ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
 # ACTION=="add", KERNEL=="event*", ATTRS{id/vendor}=="004c", ATTR{name}=="Magic Keyboard", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
 # ACTION=="add", KERNEL=="hidraw*", SUBSYSTEM=="hidraw", DRIVERS=="apple", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
-ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTRS{id/product}=="029c", RUN+="/home/james/.local/bin/reload_hid_apple.sh"
+ACTION=="add", KERNEL=="event*", SUBSYSTEM=="input", ATTRS{id/vendor}=="004c", ATTRS{id/product}=="029c", RUN+="/home/james/.local/bin/reload_magic_keyboard.sh"
