@@ -437,3 +437,4 @@ for_window [class="Image Lounge"] floating enable
 for_window [class="Gifview"] floating enable
 for_window [class="dropdownkitty"] floating enable
 for_window [class="mpv*"] floating enable
+for_window [class="marktext"] floating enable
