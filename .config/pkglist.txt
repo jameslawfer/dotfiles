@@ -54,6 +54,7 @@ gifsicle
 gifski
 git
 glow
+gnome-keyring
 gnu-netcat
 gnuchess
 go
@@ -140,6 +141,7 @@ nethogs
 networkd-dispatcher
 nfs-utils
 ngrep
+nheko
 nicotine+
 nmap
 nomacs
@@ -187,6 +189,7 @@ postgresql
 powerdevil
 powertop
 prettier
+pwgen
 python-black
 python-kasa
 python-kibom
@@ -241,6 +244,7 @@ tmux
 traceroute
 trash-cli
 tree
+ttf-courier-prime
 ttf-jetbrains-mono-nerd
 ttf-opensans
 unrar

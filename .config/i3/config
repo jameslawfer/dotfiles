@@ -46,6 +46,12 @@ exec --no-startup-id feh --bg-fill /home/james/Pictures/Wallpapers/WP.jpg
 # Start compositor Picom
 exec --no-startup-id picom --config /home/james/.config/picom/picom.conf
 
+# Expose environment variables to the D-Bus activation environment
+exec --no-startup-id dbus-update-activation-environment --all
+
+# Force-start the gnome-keyring daemon components
+exec --no-startup-id gnome-keyring-daemon --start --components=secrets,ssh
+
 # Start snixembed to proxy StatusNotifierItems as XEmbedded systemtray-spec icons (fixes Dropbox tray icon on i3)
 exec --no-startup-id snixembed
 
