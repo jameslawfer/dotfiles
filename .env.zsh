@@ -44,6 +44,9 @@ alias kvm='deskflow-core client &'
 # Alias to not combine AUR and pacman upgrades with Yay
 alias yay='yay --combinedupgrade=false'
 
+# Alias for password generation using pwgen Usage: pw <len>
+alias pw='pwgen -cnysB -1'
+
 # use kitty ssh kitten to copy correct terminfo data over when using kitty
 if [[ "$TERM" == *"kitty" ]]; then
     alias ssh='kitty +kitten ssh'
