@@ -26,9 +26,7 @@ do
     KBDCOLOUR="#00FFFB"
   fi
 
-  if [[ $VPN == "WireGuard (Connecting)" ]] ; then
-      VPNCOLOUR="#FFCC00"
-  elif [[ $VPN == "Pangolin (Connecting)" ]] ; then
+  if [[ $VPN == *"Connecting"* ]] ; then
       VPNCOLOUR="#FFCC00"
   elif [ $VPN != 'Disconnected' ] ; then
       VPNCOLOUR="#00FF00"
