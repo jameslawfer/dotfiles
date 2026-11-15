@@ -1,0 +1,14 @@
+[Unit]
+Description=Bluetooth Device Connect/Disconnect Event Dispatcher
+After=bluetooth.service
+Requires=bluetooth.service
+
+[Service]
+Type=simple
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/home/james/.config/i3/scripts/bt-dispatcher.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
